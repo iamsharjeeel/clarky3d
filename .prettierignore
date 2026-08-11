@@ -1,0 +1,15 @@
+.next
+node_modules
+coverage
+package-lock.json
+docs
+AUDIT.md
+IMPLEMENTATION_PLAN.md
+AGENTS.md
+CHANGELOG.md
+HANDOVER.md
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
