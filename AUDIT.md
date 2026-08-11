@@ -353,3 +353,13 @@ category-theme colours, correct canonical/sitemap host drift (`print.clarkyau.co
 add missing security headers and privacy disclosure, migrate product URLs without
 loss, and keep brand motifs while meeting WCAG/performance gates on Vercel. Owner
 decisions on scope, rights, and legal text remain the gate before M2 content freeze.
+
+---
+
+## Appendix — Visual overhaul evidence (2026-08-11)
+
+Implementation evidence for the Editorial Gallery redesign (provisional direction)
+is recorded under `docs/evidence/2026-08-11-visual/` with `docs/design-delta.md`,
+`docs/decisions/brand-preservation-matrix.md`, and
+`docs/decisions/ADR-visual-direction.md`. This appendix does not alter the findings
+above; it points to post-scaffold visual-overhaul artifacts.

@@ -47,6 +47,11 @@ npm run build
 npm run test:e2e
 ```
 
+## Visual overhaul
+
+Editorial Gallery direction (provisional). Concepts at `/design-concepts/*` (noindex).
+See `docs/design-delta.md` and `docs/decisions/ADR-visual-direction.md`.
+
 ## Status
 
 - [x] M0 live-site evidence + inventories

@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-11",
+  "url": "http://127.0.0.1:3000/",
+  "desktop": {
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1
+  },
+  "mobile": {
+    "performance": 0.89,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1
+  },
+  "notes": "Lab only against local production server after Editorial overhaul. Mobile perf 0.89 is below the ≥0.90 CI aspiration; investigate LCP image weight before launch."
+}

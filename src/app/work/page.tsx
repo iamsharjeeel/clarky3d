@@ -13,30 +13,43 @@ export default function WorkPage() {
   const products = getProducts();
 
   return (
-    <div className="stack">
-      <header className="stack">
-        <h1 className="page-title">Catalogue</h1>
+    <div className="catalogue-editorial">
+      <header className="section-head-editorial">
+        <p className="eyebrow">Catalogue</p>
+        <h1 className="page-title">Made-to-order prints</h1>
         <p className="lede">
-          Products and prices transcribed from the 2026-08-11 live catalogue capture. Photography
-          rights remain unverified.
+          Products and prices from the 2026-08-11 live catalogue capture. Photography rights remain
+          unverified for production launch.
         </p>
       </header>
+
+      <nav className="catalogue-jump" aria-label="Category jump">
+        <ul>
+          {categories.map((category) => (
+            <li key={category.id}>
+              <a href={`#${category.slug}`}>{category.title}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
       {categories.map((category) => {
         const items = products.filter((product) => product.categoryId === category.id);
         return (
           <section
             key={category.id}
             id={category.slug}
-            className={`stack theme-${category.themeToken}`}
+            className={`catalogue-block theme-${category.themeToken}`}
             aria-labelledby={category.id}
           >
-            <h2 id={category.id} className="strip-title">
-              {category.title}
-            </h2>
-            <ul className="product-grid">
-              {items.map((product) => (
-                <li key={product.slug}>
-                  <ProductCard product={product} />
+            <div className="catalogue-block-head">
+              <h2 id={category.id}>{category.title}</h2>
+              <p className="meta">{items.length} prints</p>
+            </div>
+            <ul className="editorial-grid">
+              {items.map((product, index) => (
+                <li key={product.slug} className={index === 0 ? "span-2" : undefined}>
+                  <ProductCard product={product} layout={index === 0 ? "feature" : "grid"} />
                 </li>
               ))}
             </ul>
