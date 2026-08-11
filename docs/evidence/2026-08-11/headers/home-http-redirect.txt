@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 11 Aug 2026 02:59:33 GMT
+Content-Type: text/plain; charset=utf-8
+Connection: keep-alive
+Location: https://clarky3d.com/
+Server: cloudflare
+X-Nf-Request-Id: 01KZQC5N3WVKJH2Z8ABF61RGN7
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5odXYOLhr3r1NbjjIlDgZOTvETtQdQnw3itQia%2FZdlO%2F%2B%2FgjkhgNv74t9jRC2UMHPQfGTVaBoWN5tMifXi0zOpsXxEmhB7Shy2HYSln4iSLGhqhhsIJdTMpfGpeWERE%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+CF-RAY: a293fc26ff7d81be-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 11 Aug 2026 02:59:33 GMT
+content-type: text/html; charset=UTF-8
+age: 1884
+cache-control: public,max-age=0,must-revalidate
+cache-status: "Netlify Edge"; hit; ttl=31534116
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+strict-transport-security: max-age=31536000
+vary: Accept-Encoding
+x-nf-request-id: 01KZQC5N5C4BSHBFHE8EZP7Z4D
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Pmo8U1YxLPvi3j2mYeAOoFFiLB9Rta6UlbmDfzRsNsv5C8KllsofW6F0ZOGB3ZAw%2BPn9Pj3tAaVSmp4PyXX16qsQdA6MZPALe%2Fn0CW4YbbxiQvDG6Oe7SzP%2BtxFXEHs%3D"}]}
+cf-cache-status: DYNAMIC
+cf-ray: a293fc275f5fd699-IAD
+alt-svc: h3=":443"; ma=86400
+

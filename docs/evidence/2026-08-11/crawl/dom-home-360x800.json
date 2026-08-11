@@ -1,0 +1,260 @@
+{
+  "pageId": "home-360x800",
+  "url": "https://clarky3d.com/",
+  "title": "Clarky3D",
+  "lang": "en",
+  "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+  "robots": null,
+  "canonical": "https://clarky3d.com/",
+  "ogTitle": "Clarky3D — made-to-order 3D prints",
+  "ogUrl": "https://print.clarkyau.com/",
+  "ogImage": "https://print.clarkyau.com/og-default.jpg",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "FEATURED ITEMS"
+    },
+    {
+      "tag": "h3",
+      "text": "BROWSE THE CATALOGUE 4 CATEGORIES"
+    },
+    {
+      "tag": "h3",
+      "text": "LATEST RELEASES 11 ITEMS"
+    },
+    {
+      "tag": "h4",
+      "text": "Stackable SNES Drawer (7-Cart)"
+    },
+    {
+      "tag": "h4",
+      "text": "Modular Case"
+    },
+    {
+      "tag": "h4",
+      "text": "The Secure Crumpet Custom Trays"
+    },
+    {
+      "tag": "h4",
+      "text": "Mini Label Helper"
+    },
+    {
+      "tag": "h4",
+      "text": "Label Helper Stand"
+    },
+    {
+      "tag": "h4",
+      "text": "Ten + One Case"
+    },
+    {
+      "tag": "h4",
+      "text": "Bulk 50 Case"
+    },
+    {
+      "tag": "h4",
+      "text": "Travel Case with Cooling"
+    },
+    {
+      "tag": "h4",
+      "text": "Labeled Vial Caps"
+    },
+    {
+      "tag": "h4",
+      "text": "NovoPen 4 Spacers"
+    },
+    {
+      "tag": "h4",
+      "text": "9 Pen Silo"
+    },
+    {
+      "tag": "h3",
+      "text": "COLOURS ON THE SHELF 14 IN STOCK"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Main"
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "name": null
+    }
+  ],
+  "linkCount": 18,
+  "links": [
+    {
+      "href": "#main",
+      "text": "SKIP TO CONTENT"
+    },
+    {
+      "href": "#",
+      "text": "CLARKY3D"
+    },
+    {
+      "href": "#Hotwheels",
+      "text": "Hotwheels 1 SECTION · 1 ITEM"
+    },
+    {
+      "href": "#Retro_Gaming",
+      "text": "Retro Gaming 1 SECTION · 1 ITEM"
+    },
+    {
+      "href": "#Misc_Items",
+      "text": "Misc Items 2 SECTIONS · 2 ITEMS"
+    },
+    {
+      "href": "#Vial_Storage",
+      "text": "Pep Things 5 SECTIONS · 12 ITEMS"
+    },
+    {
+      "href": "#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+      "text": "NEW Stackable SNES Drawer (7-Cart) $65.00 SNES"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases/Base_Case",
+      "text": "POPULAR Modular Case $25.00 CASES"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+      "text": "NEW The Secure Crumpet Custom Trays $90.00 CASES"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Mini_Labeler",
+      "text": "NEW Mini Label Helper $15.00 LABELING"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+      "text": "NEW Label Helper Stand $15.00 LABELING"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Ten_One_Case",
+      "text": "NEW Ten + One Case $25.00 LABELING"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+      "text": "NEW Bulk 50 Case $60.00 LABELING"
+    },
+    {
+      "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+      "text": "NEW Travel Case with Cooling $35.00 TRAVEL CASES"
+    },
+    {
+      "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+      "text": "POPULAR Labeled Vial Caps $2.00 MISC ITEMS"
+    },
+    {
+      "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+      "text": "POPULAR NovoPen 4 Spacers $10.00 PENS"
+    },
+    {
+      "href": "#Vial_Storage/Pens/Pen_Storage_9",
+      "text": "9 Pen Silo $35.00 PENS"
+    },
+    {
+      "href": "#colours",
+      "text": "SEE THE FULL LIBRARY"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "FEATURED",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CATALOGUE ▾",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "COLOURS",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "Cart",
+      "aria": "Open cart",
+      "disabled": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 0,
+      "h": 0
+    }
+  ],
+  "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS FEATURED ITEMS I'm always adding new products, so keep an eye out for new additions. Checkout the latest releases below or checkout the catalogue above. All items are print on demand. BROWSE THE CATALOGUE 4 CATEGORIES Hotwheels 1 SECTION · 1 ITEM Retro Gaming 1 SECTION · 1 ITEM Misc Items 2 SECTIONS · 2 ITEMS Pep Things 5 SECTIONS · 12 ITEMS LATEST RELEASES 11 ITEMS NEW Stackable SNES Drawer (7-Cart) $65.00 SNES POPULAR Modular Case $25.00 CASES NEW The Secure Crumpet Custom Trays $90.00 CASES NEW Mini Label Helper $15.00 LABELING NEW Label Helper Stand $15.00 LABELING NEW Ten + One Case $25.00 LABELING NEW Bulk 50 Case $60.00 LABELING NEW Travel Case with Cooling $35.00 TRAVEL CASES POPULAR Labeled Vial Caps $2.00 MISC ITEMS POPULAR NovoPen 4 Spacers $10.00 PENS 9 Pen Silo $35.00 PENS COLOURS ON THE SHELF 14 IN STOCK White Black Red Sea Blue Black White Burnt Grey Dirty Purple Stepped On Orange Leaf Green Pink Grey Marble IN STOCK Every colour above is on the shelf right now. Pick one per part when you order, or leave it to Clarky. SEE THE FULL LIBRARY",
+  "overflowX": false,
+  "rootChildren": 1
+}

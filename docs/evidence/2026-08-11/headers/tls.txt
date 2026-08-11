@@ -1,0 +1,4 @@
+subject=CN = clarky3d.com
+issuer=C = US, O = Google Trust Services, CN = WE1
+notBefore=Aug 10 05:51:06 2026 GMT
+notAfter=Nov  8 06:49:34 2026 GMT

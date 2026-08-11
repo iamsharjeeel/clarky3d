@@ -4,107 +4,108 @@
 **Target:** `https://clarky3d.com/`  
 **Purpose:** presales expert review and implementation brief for a conversion-led,
 brand-faithful overhaul  
-**Confidence:** provisional until live/source evidence capture is completed
+**Confidence:** evidence capture completed for live public site on 2026-08-11;
+owner approvals (claims, media rights, privacy, IA) remain outstanding
 
 ## 1. Executive assessment
 
-Clarky3D should become a focused lead-generation portfolio: visitors should
-understand what Clarky3D does, who it helps, why the work is credible, and how to
-start a conversation within one short scan. Rich 3D work can remain the visual
-signature, but must not compete with comprehension, keyboard access, motion
-preferences, mobile stability, or load performance.
+Live evidence shows Clarky3D is a **made-to-order 3D print catalogue** (Netlify
+React SPA) with category browse, product detail, filament library, cart, and
+**Telegram checkout** (`t.me/Clarky_AU`)—not a services portfolio. The overhaul
+should preserve that recognizable retro-tech identity and catalogue journey while
+fixing progressive enhancement, accessibility contrast, crawl/canonical hygiene,
+security headers, privacy disclosure, and maintainable delivery on Vercel.
 
-The recommended overhaul is not an ungrounded rebrand. Preserve verified brand
-assets, visual motifs, voice, and strongest work; rebuild the information
-hierarchy, case-study storytelling, calls to action, accessibility, technical
-delivery, measurement, and maintainability around them.
+Do not reframe the business as an agency case-study site unless the owner supplies
+approved positioning and project evidence. Rich product photography can remain the
+visual signature, but must not compete with comprehension, keyboard access, motion
+preferences, mobile stability, or load performance.
 
 ### Highest-value opportunities
 
-1. **Clarify positioning:** one concrete headline, supporting outcome, audience
-   cue, primary CTA, and representative work above the fold.
-2. **Turn imagery into evidence:** structured case studies should explain brief,
-   role, constraints, solution, deliverables, and approved outcomes—not merely show
-   a gallery.
-3. **Create a trustworthy conversion path:** persistent but restrained CTA,
-   expectations around response/process, low-friction form, and alternatives.
-4. **Make visual ambition resilient:** responsive images/video, explicit sizing,
-   poster frames, reduced-motion behavior, and static fallbacks for WebGL/3D.
+1. **Preserve clear catalogue positioning already on-site:** made-to-order 3D
+   prints, browse by category, filament colours, order via Telegram—rendered in
+   resilient HTML rather than a JS-only shell.
+2. **Turn product pages into trustworthy purchase aids:** structured detail for
+   description, price, colour parts, options, photos, and related items without
+   inventing outcomes.
+3. **Harden the conversion path:** keep low-friction Telegram ordering (or add an
+   approved form), state expectations honestly, and publish privacy/contact
+   alternatives once approved.
+4. **Make visual ambition resilient:** responsive images, explicit sizing,
+   reduced-motion behavior, and **no-JS essential content** (currently blank).
 5. **Establish technical fundamentals:** semantic rendering, metadata, schema,
-   sitemap, canonical URLs, security headers, privacy-aware analytics, automated QA,
-   and a safe Vercel launch process.
+   sitemap/canonical host consistency, security headers, privacy-aware analytics,
+   automated QA, and a safe Vercel launch process.
 
 ## 2. Evidence and limitations
 
-### What was verified
+### What was verified (2026-08-11 capture)
 
-- The supplied repository contained only a one-line `README.md` and Git metadata;
-  there was no application source to inspect.
-- Requests to the public URL from the audit environment were rejected by the
-  environment's outbound proxy with `HTTP/1.1 403 Forbidden` and `CONNECT tunnel
-  failed`. This is **not evidence that the public website itself returns 403**.
-- No analytics, Search Console, CRM, hosting, source, customer research, brand
-  guide, content inventory, or legal requirements were supplied.
-- Git/Vercel and a modern code-first build are the stated deployment preference.
+Evidence folder: `docs/evidence/2026-08-11/` (see `baseline-summary.md`).
 
-### What was not verified
+- Public site returns **HTTP 200** via Cloudflare → Netlify (`cache-status: Netlify Edge`).
+- Host redirects: `http://` → `https://clarky3d.com/` (301); `www` → apex (301).
+- App type: Vite/React SPA (`#root`); bundles `/assets/main-*.js|css`; admin at
+  `/admin` with `noindex`.
+- Data: `/api/bootstrap` (catalogue + settings), `/api/filaments` (14), product
+  photos via `/products/...` and `/api/photos/{id}`.
+- IA/templates: Featured home, category hash routes, `/?p=` product detail,
+  Colours library, cart drawer, Telegram order CTA. No public HTML contact form.
+- Brand tokens: dark `#121212`, accent `#00e5ff`, fonts Press Start 2P / Exo 2 /
+  Space Mono; category theme colours; hard shadows; scanlines.
+- SEO: `robots.txt` Disallow admin; **Sitemap directive points to
+  `print.clarkyau.com` which does not resolve**; `clarky3d.com/sitemap.xml` lists
+  home + 16 product query URLs. SSR canonical/og initially target
+  `print.clarkyau.com`; client updates canonical to `clarky3d.com`. No JSON-LD.
+- Headers: HSTS present; CSP, nosniff, Referrer-Policy, Permissions-Policy missing.
+- a11y: skip link + focus styles present; axe serious **color-contrast** on muted
+  `#666` and purple category theme text; home axe clean; **no-JS body is blank**.
+- Lighthouse lab (retry runs): desktop home Perf ~98–99 / a11y 100; mobile home
+  Perf ~83, LCP ~3.7s; product desktop Perf ~98 / a11y 96; details in evidence JSON.
+- Third parties: Google Fonts, Cloudflare Insights beacon; no cookies on fresh load.
+- Inventories written: `docs/content-inventory.csv`, `docs/redirect-map.csv`,
+  `docs/brand-inventory.md`.
 
-Visual design, copy, routes, DOM semantics, responsive behavior, forms, cookies,
-headers, robots directives, structured data, page weight, Core Web Vitals,
-accessibility defects, indexed pages, and third-party scripts remain
-`TBD-EVIDENCE`. This audit therefore avoids fabricating scores or claiming a defect
-exists where it has not been observed.
+### What remains unverified / owner-owned
 
-### Mandatory evidence capture before design
+- Media rights, model releases, and approval to republish product photos / OG image.
+- Legal privacy basis for Telegram handoff and Cloudflare Insights.
+- Search Console / analytics / conversion history (not supplied).
+- Application source/lockfile (not in repo; dependency CVE audit deferred to M1).
+- Screen-reader full audit, forced-colors, 200%/400% zoom matrix beyond smoke.
+- Whether `print.clarkyau.com` should be restored or retired.
+- Whether “Pep Things” naming and peptide/medical-adjacent catalogue copy are
+  intended for the public overhaul without changes.
 
-Once access or source exists, create `docs/evidence/YYYY-MM-DD/` and save:
+### Evidence capture status
 
-1. Full-page screenshots at 360×800, 768×1024, 1440×900, and 1920×1080 for every
-   indexable template, plus navigation, modal, form error/success, and 404 states.
-2. A route/content/asset inventory including titles, descriptions, headings,
-   canonical, indexability, status, word count, media owner/license, and migration
-   decision.
-3. Lighthouse mobile and desktop JSON; WebPageTest or equivalent waterfall for
-   home, work index, heaviest project, and contact.
-4. axe results plus manual keyboard, screen-reader smoke, zoom/reflow, contrast,
-   reduced-motion, and forced-colors checks.
-5. `curl -I`, redirect-chain, TLS, CSP, cookie/storage, form endpoint, dependency,
-   robots.txt, sitemap.xml, and structured-data evidence.
-6. Search Console/analytics export if later available. Never infer conversion or
-   traffic performance from visual inspection.
+Mandatory A01 capture for the live public site is **complete** for screenshots,
+crawl/inventory, Lighthouse, axe, keyboard smoke, headers/TLS, robots/sitemap,
+integrations/storage, and no-JS. Re-run after ownership decisions or source access.
 
-Suggested baseline commands (adapt URL list as discovered):
+## 3. Audience, intent, and journey (evidence-adjusted)
 
-```bash
-curl -sSIL https://clarky3d.com/
-curl -sS https://clarky3d.com/robots.txt
-curl -sS https://clarky3d.com/sitemap.xml
-npx lighthouse https://clarky3d.com/ --preset=desktop --output=json --output-path=./lighthouse-desktop.json
-npx lighthouse https://clarky3d.com/ --form-factor=mobile --output=json --output-path=./lighthouse-mobile.json
-npx @axe-core/cli https://clarky3d.com/
-```
-
-## 3. Audience, intent, and journey hypothesis
-
-Until discovery proves otherwise, design for a prospective buyer who has limited
-time, may not understand production terminology, and needs confidence that
-Clarky3D can deliver suitable visual work reliably.
+Observed journey is retail/catalogue, not agency inquiry. Design for a prospective
+buyer who wants a specific print, needs to see photos/colours/price, and can
+complete an order through Telegram with minimal friction.
 
 ### Primary jobs to be done
 
-- Determine in seconds whether the offering fits the visitor's need.
-- Judge craft and relevance through comparable work.
-- Understand services, deliverables, process, and collaboration expectations.
-- Resolve risk questions: capability, ownership, revisions, timeline, and contact.
-- Send a useful inquiry without completing an intimidating questionnaire.
+- Determine in seconds that Clarky3D sells made-to-order 3D prints.
+- Browse categories and judge craft through product photos.
+- Understand filament options, part colouring, price, and made-to-order expectations.
+- Resolve risk questions: what is included, colour “Lucky Dip”, shipping TBD, how to message Clarky.
+- Place an order without an intimidating questionnaire (today: Telegram prefilled cart).
 
-### Proposed funnel
+### Observed funnel
 
-`Landing/search/referral → positioning → selected work → relevant case study →
-process/services/trust → inquiry → confirmation → human follow-up`
+`Landing/search/referral → featured/catalogue → product (+ colour parts) → cart →
+Telegram order message → human fulfillment`
 
-Do not optimize only the homepage. Each case study is a landing page and must
-carry context, navigation, related work, and a next step.
+Each product URL is a landing page and must carry context, navigation, related
+items, and a next step. Owner may still request a parallel services/lead path;
+that requires approved copy and must not erase catalogue URLs.
 
 ## 4. Heuristic audit and recommendations
 
@@ -201,24 +202,35 @@ priority: **P0** launch blocker, **P1** high value, **P2** improvement, **P3** t
 
 ### 4.7 Accessibility (WCAG 2.2 AA target)
 
+Evidence 2026-08-11: skip link works; visible focus present; `lang="en"`; reduced-motion
+CSS present; axe serious contrast failures on `#666` muted text and `#8000ff` themed
+chrome; home had no axe violations; **no-JS renders empty document body**.
+
 - **P0:** Semantic landmarks, logical heading hierarchy, one descriptive page H1,
-  skip link, meaningful link text, and valid control names/roles/states.
+  skip link, meaningful link text, and valid control names/roles/states. *(Home DOM
+  capture lacked an `h1`; starts at `h2` “FEATURED ITEMS”.)*
 - **P0:** Full keyboard operation with visible `:focus-visible`; no focus traps,
   positive `tabindex`, keyboard-inaccessible canvas, or unexpected focus changes.
+  *(Keyboard smoke on home: pass for primary nav path.)*
 - **P0:** Text contrast ≥4.5:1 (≥3:1 for large text); UI/focus/non-text essential
-  contrast ≥3:1. Verify tokens and image overlays in actual states.
+  contrast ≥3:1. Verify tokens and image overlays in actual states. *(Failing:
+  filament hex / notes at ~3.03:1; Pep Things theme text ~2.8–3.0:1.)*
 - **P0:** Every informative image has useful alt text; decorative images use empty
   alt; complex 3D/video receives adjacent equivalent description; logo link names
   the homepage without redundant wording.
+- **P0:** Essential catalogue content must work without client JavaScript (currently
+  blank `#root` — launch blocker for progressive enhancement).
 - **P0:** Form errors are associated, summarized when useful, announced, specific,
   and do not rely on color. Preserve entered values and move focus appropriately.
+  *(No HTML form today; applies if/when contact form is added. Cart uses buttons +
+  Telegram link.)*
 - **P0:** Honor `prefers-reduced-motion`; pause/stop controls for relevant animation;
   no harmful flashes; autoplay video muted and pausable; captions/transcripts where
   speech or meaningful audio exists.
 - **P1:** HTML `lang`, reflow, text spacing, target size, consistent help, status
   messages, forced-colors, and screen-reader reading order receive manual testing.
 - **P1:** Accessibility statement includes contact route and honest known issues;
-  do not claim conformance solely from automated tools.
+  do not claim conformance solely from automated tools. *(No statement page today.)*
 
 ### 4.8 Content and editorial quality
 
@@ -235,18 +247,26 @@ priority: **P0** launch blocker, **P1** high value, **P2** improvement, **P3** t
 
 ### 4.9 Search and discoverability
 
+Evidence 2026-08-11: apex canonical redirects work; SSR meta still advertises
+`print.clarkyau.com` (DNS NXDOMAIN); robots Sitemap directive also points there while
+`clarky3d.com/sitemap.xml` is healthy; primary HTML content is not in SSR; no JSON-LD.
+
 - **P0:** Exactly one canonical HTTPS host; intentional redirect map; no chains,
-  loops, soft 404s, orphan routes, or staging indexation.
+  loops, soft 404s, orphan routes, or staging indexation. *(Resolve/retire
+  `print.clarkyau.com` references.)*
 - **P0:** Unique, descriptive title and meta description; canonical; index directive;
-  social image; and renderable primary content on every indexable route.
+  social image; and renderable primary content on every indexable route. *(Titles
+  update client-side per product; SSR body lacks content.)*
 - **P0:** Generate valid `robots.txt` and XML sitemap containing only canonical,
   indexable 200 pages. Exclude previews, form confirmations, and internal search.
+  *(Fix robots Sitemap host mismatch.)*
 - **P1:** Use `Organization`/appropriate business entity, `WebSite`, `BreadcrumbList`,
-  and relevant `CreativeWork`/`VisualArtwork` schema only for visible, truthful
-  data. Validate it; schema does not guarantee rich results.
-- **P1:** Create useful project copy, alt text, internal links, and stable slugs.
-  Avoid keyword stuffing and thin tag archives.
+  and relevant `Product`/`Offer` schema only for visible, truthful data. Validate it;
+  schema does not guarantee rich results. *(None present today.)*
+- **P1:** Create useful product copy, alt text, internal links, and stable slugs.
+  Avoid keyword stuffing and thin tag archives. Preserve `/?p=` via redirects.
 - **P1:** Set useful Open Graph/Twitter metadata with approved 1200×630 imagery.
+  *(Default OG image exists; product-specific edge preview mentioned in HTML comments.)*
 - **P2:** Add RSS only if publishing recurs; local SEO only if there is a genuine
   service area/address strategy. Do not manufacture location pages.
 
@@ -311,7 +331,7 @@ tracking to compensate for insufficient traffic.
 
 | ID | Priority | Action | Acceptance evidence |
 | --- | --- | --- | --- |
-| A01 | P0 | Capture live/source baseline and brand/content inventory | Evidence folder, route sheet, screenshots, automated and manual results |
+| A01 | P0 | Capture live/source baseline and brand/content inventory | **Done 2026-08-11** — `docs/evidence/2026-08-11/`, inventories, brand matrix |
 | A02 | P0 | Validate owner, claims, media rights, privacy and contact handling | Approval record and content provenance |
 | A03 | P1 | Approve positioning, IA, and key journeys | Content outline and mobile/desktop wireframes |
 | A04 | P1 | Build accessible tokenized design system preserving brand | Token sheet, component states, contrast checks |
@@ -326,10 +346,10 @@ tracking to compensate for insufficient traffic.
 
 ## 6. Audit conclusion
 
-The strategic direction is clear even though live-site defects cannot responsibly
-be asserted from this environment: preserve the recognizable Clarky3D identity,
-make the offer immediately legible, convert visual work into buyer-relevant proof,
-create a trustworthy inquiry journey, and ship it on a measurable, accessible,
-secure, performance-budgeted foundation. The evidence capture in A01 is a hard gate:
-it will turn this provisional expert framework into a page-specific remediation
-record without erasing the existing brand by assumption.
+Live evidence confirms a distinctive dark/cyan catalogue brand and a Telegram-led
+made-to-order purchase path. Highest-priority remediation is now specific: replace
+the JS-only shell with resilient HTML, fix contrast regressions on muted and
+category-theme colours, correct canonical/sitemap host drift (`print.clarkyau.com`),
+add missing security headers and privacy disclosure, migrate product URLs without
+loss, and keep brand motifs while meeting WCAG/performance gates on Vercel. Owner
+decisions on scope, rights, and legal text remain the gate before M2 content freeze.

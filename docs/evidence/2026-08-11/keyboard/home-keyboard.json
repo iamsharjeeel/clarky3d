@@ -1,0 +1,165 @@
+[
+  {
+    "step": "first-tab",
+    "focused": {
+      "tag": "A",
+      "text": "SKIP TO CONTENT",
+      "className": "skip-link",
+      "href": "#main",
+      "role": null
+    }
+  },
+  {
+    "step": "skip-link-present-on-first-tab",
+    "result": true
+  },
+  {
+    "step": "focus-order-sample",
+    "focusOrder": [
+      {
+        "tag": "A",
+        "text": "CLARKY3D",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "FEATURED",
+        "outline": "rgb(196, 238, 235) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 3px 3px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "CATALOGUE ▾",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "COLOURS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "BUTTON",
+        "text": "CART",
+        "outline": "rgb(141, 235, 241) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 4px 4px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "Hotwheels\n1 SECTION · 1 ITEM",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 5px 5px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "Retro Gaming\n1 SECTION · 1 ITEM",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 5px 5px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "Misc Items\n2 SECTIONS · 2 ITEMS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 5px 5px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "Pep Things\n5 SECTIONS · 12 ITEMS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 5px 5px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nStackable SNES Drawer (7-Cart)\n$65.00\nSNES",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "POPULAR\nModular Case\n$25.00\nCASES",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nThe Secure Crumpet Custom Trays\n$90.00\nCASES",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nMini Label Helper\n$15.00\nLABELING",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nLabel Helper Stand\n$15.00\nLABELING",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nTen + One Case\n$25.00\nLABELING",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nBulk 50 Case\n$60.00\nLABELING",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "NEW\nTravel Case with Cooling\n$35.00\nTRAVEL CASES",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "POPULAR\nLabeled Vial Caps\n$2.00\nMISC ITEMS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "POPULAR\nNovoPen 4 Spacers\n$10.00\nPENS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "text": "9 Pen Silo\n$35.00\nPENS",
+        "outline": "rgb(245, 240, 230) solid 3px",
+        "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+        "visible": true
+      }
+    ]
+  },
+  {
+    "step": "visible-focus-count-estimate",
+    "visibleFocusCount": 20
+  }
+]

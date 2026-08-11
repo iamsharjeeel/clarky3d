@@ -1,0 +1,291 @@
+{
+  "pageId": "category-vial-1440x900",
+  "url": "https://clarky3d.com/#Vial_Storage",
+  "title": "Pep Things — Clarky3D",
+  "lang": "en",
+  "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+  "robots": null,
+  "canonical": "https://clarky3d.com/",
+  "ogTitle": "Clarky3D — made-to-order 3D prints",
+  "ogUrl": "https://print.clarkyau.com/",
+  "ogImage": "https://print.clarkyau.com/og-default.jpg",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Pep Things"
+    },
+    {
+      "tag": "h3",
+      "text": "Cases → 3 ITEMS"
+    },
+    {
+      "tag": "h4",
+      "text": "Medium Case 3ml 10x2"
+    },
+    {
+      "tag": "h4",
+      "text": "Modular Case"
+    },
+    {
+      "tag": "h4",
+      "text": "The Secure Crumpet Custom Trays"
+    },
+    {
+      "tag": "h3",
+      "text": "Labeling → 4 ITEMS"
+    },
+    {
+      "tag": "h4",
+      "text": "Mini Label Helper"
+    },
+    {
+      "tag": "h4",
+      "text": "Label Helper Stand"
+    },
+    {
+      "tag": "h4",
+      "text": "Ten + One Case"
+    },
+    {
+      "tag": "h4",
+      "text": "Bulk 50 Case"
+    },
+    {
+      "tag": "h3",
+      "text": "Travel Cases → 2 ITEMS"
+    },
+    {
+      "tag": "h4",
+      "text": "Travel Case 1"
+    },
+    {
+      "tag": "h4",
+      "text": "Travel Case with Cooling"
+    },
+    {
+      "tag": "h3",
+      "text": "Misc Items → 1 ITEM"
+    },
+    {
+      "tag": "h4",
+      "text": "Labeled Vial Caps"
+    },
+    {
+      "tag": "h3",
+      "text": "Pens → 2 ITEMS"
+    },
+    {
+      "tag": "h4",
+      "text": "NovoPen 4 Spacers"
+    },
+    {
+      "tag": "h4",
+      "text": "9 Pen Silo"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Main"
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Breadcrumb"
+    }
+  ],
+  "linkCount": 20,
+  "links": [
+    {
+      "href": "#main",
+      "text": "SKIP TO CONTENT"
+    },
+    {
+      "href": "#",
+      "text": "CLARKY3D"
+    },
+    {
+      "href": "#",
+      "text": "HOME"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases",
+      "text": "Cases →"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+      "text": "Medium Case 3ml 10x2 $20.00"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases/Base_Case",
+      "text": "Modular Case $25.00"
+    },
+    {
+      "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+      "text": "The Secure Crumpet Custom Trays $90.00"
+    },
+    {
+      "href": "#Vial_Storage/Labeling",
+      "text": "Labeling →"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Mini_Labeler",
+      "text": "Mini Label Helper $15.00"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+      "text": "Label Helper Stand $15.00"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Ten_One_Case",
+      "text": "Ten + One Case $25.00"
+    },
+    {
+      "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+      "text": "Bulk 50 Case $60.00"
+    },
+    {
+      "href": "#Vial_Storage/Travel_Cases",
+      "text": "Travel Cases →"
+    },
+    {
+      "href": "#Vial_Storage/Travel_Cases/Travel_Case_1",
+      "text": "Travel Case 1 $35.00"
+    },
+    {
+      "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+      "text": "Travel Case with Cooling $35.00"
+    },
+    {
+      "href": "#Vial_Storage/Misc_Items",
+      "text": "Misc Items →"
+    },
+    {
+      "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+      "text": "Labeled Vial Caps $2.00"
+    },
+    {
+      "href": "#Vial_Storage/Pens",
+      "text": "Pens →"
+    },
+    {
+      "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+      "text": "NovoPen 4 Spacers $10.00"
+    },
+    {
+      "href": "#Vial_Storage/Pens/Pen_Storage_9",
+      "text": "9 Pen Silo $35.00"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "FEATURED",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CATALOGUE ▾",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "COLOURS",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CART",
+      "aria": "Open cart",
+      "disabled": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FTravel_Cases%2FTravel_Case_1%2Ftc_printed_1.jpg&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    },
+    {
+      "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+      "alt": "",
+      "w": 560,
+      "h": 560
+    }
+  ],
+  "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART Pep Things HOME / PEP THINGS Cases → 3 ITEMS Medium Case 3ml 10x2 $20.00 Modular Case $25.00 The Secure Crumpet Custom Trays $90.00 Labeling → 4 ITEMS Mini Label Helper $15.00 Label Helper Stand $15.00 Ten + One Case $25.00 Bulk 50 Case $60.00 Travel Cases → 2 ITEMS Travel Case 1 $35.00 Travel Case with Cooling $35.00 Misc Items → 1 ITEM Labeled Vial Caps $2.00 Pens → 2 ITEMS NovoPen 4 Spacers $10.00 9 Pen Silo $35.00",
+  "overflowX": false,
+  "rootChildren": 1
+}

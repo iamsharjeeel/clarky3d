@@ -1,0 +1,10 @@
+{
+  "title": "Clarky3D",
+  "bodyText": "",
+  "rootHTML": "",
+  "hasNav": false,
+  "scripts": [
+    "https://clarky3d.com/assets/main-DzrqyEIn.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+  ]
+}

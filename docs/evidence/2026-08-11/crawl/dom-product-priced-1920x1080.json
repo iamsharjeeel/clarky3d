@@ -1,0 +1,131 @@
+{
+  "pageId": "product-priced-1920x1080",
+  "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+  "title": "5x1 Rack — Clarky3D",
+  "lang": "en",
+  "description": "$10.00 · Hotwheels / Display Racks — A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars",
+  "robots": null,
+  "canonical": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+  "ogTitle": "5x1 Rack — Clarky3D",
+  "ogUrl": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+  "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200&h=630&fit=cover&fm=jpg&q=80",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "5x1 Rack"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Main"
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Breadcrumb"
+    },
+    {
+      "tag": "button",
+      "role": "combobox",
+      "name": "Uprights colour"
+    },
+    {
+      "tag": "button",
+      "role": "combobox",
+      "name": "Platforms colour"
+    }
+  ],
+  "linkCount": 6,
+  "links": [
+    {
+      "href": "#main",
+      "text": "SKIP TO CONTENT"
+    },
+    {
+      "href": "#",
+      "text": "CLARKY3D"
+    },
+    {
+      "href": "#",
+      "text": "HOME"
+    },
+    {
+      "href": "#Hotwheels",
+      "text": "HOTWHEELS"
+    },
+    {
+      "href": "#Hotwheels/Display_Racks",
+      "text": "DISPLAY RACKS"
+    },
+    {
+      "href": "https://t.me/Clarky_AU",
+      "text": "Message Clarky →"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "FEATURED",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CATALOGUE ▾",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "COLOURS",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CART",
+      "aria": "Open cart",
+      "disabled": false
+    },
+    {
+      "text": "SHARE",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "Any / Lucky Dip ▾",
+      "aria": "Uprights colour",
+      "disabled": false
+    },
+    {
+      "text": "Any / Lucky Dip ▾",
+      "aria": "Platforms colour",
+      "disabled": false
+    },
+    {
+      "text": "ADD TO CART",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "src": "/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200",
+      "alt": "5x1 Rack",
+      "w": 1025,
+      "h": 1362
+    }
+  ],
+  "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / HOTWHEELS / DISPLAY RACKS / 5X1 RACK SHARE 5x1 Rack $10.00 MADE TO ORDER ABOUT THIS PRINT A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars PRINT COLOURS 0 OF 2 SET UPRIGHTS Any / Lucky Dip ▾ PLATFORMS Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+  "overflowX": false,
+  "rootChildren": 1
+}

@@ -1,0 +1,68 @@
+{
+  "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "target": [
+            ".active"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #cc0000, background color: #121212, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<button type=\"button\" class=\"nav-btn active\" aria-haspopup=\"true\" aria-expanded=\"false\">Catalogue <span aria-hidden=\"true\">▾</span></button>"
+        },
+        {
+          "target": [
+            ".cart-btn-label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #cc0000, background color: #1a1a1a, font size: 9.4pt (12.48px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"cart-btn-label\">Cart</span>"
+        },
+        {
+          "target": [
+            ".price-tag"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #cc0000, background color: #1a1a1a, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1",
+          "html": "<p class=\"price-tag\">$10.00</p>"
+        },
+        {
+          "target": [
+            ".panel-value"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #cc0000, background color: #1a1a1a, font size: 9.4pt (12.48px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"panel-value\">0 of 2 set</span>"
+        },
+        {
+          "target": [
+            ".colour-parts-note"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<p class=\"colour-parts-note\">This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick.</p>"
+        },
+        {
+          "target": [
+            "a[href$=\"Clarky_AU\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.95 (foreground color: #cc0000, background color: #1a1a1a, font size: 8.9pt (11.84px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<a href=\"https://t.me/Clarky_AU\" target=\"_blank\" rel=\"noreferrer\">Message Clarky →</a>"
+        }
+      ]
+    }
+  ],
+  "passes": 24,
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "nodes": 2
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 10
+    }
+  ]
+}

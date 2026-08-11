@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "White",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#ffffff",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 2,
+    "name": "Black",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#000000",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 3,
+    "name": "Red",
+    "material": "PLA",
+    "finish": "Standard",
+    "hex": "#ff0000",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 4,
+    "name": "Sea Blue",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#00629b",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 5,
+    "name": "Black",
+    "material": "PLA",
+    "finish": "Standard",
+    "hex": "#000000",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 6,
+    "name": "White",
+    "material": "PLA",
+    "finish": "Standard",
+    "hex": "#ffffff",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 7,
+    "name": "Burnt Grey",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#4b4f54",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 8,
+    "name": "Dirty Purple",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#7e5475",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 9,
+    "name": "Stepped On Orange",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#ff8f1c",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 10,
+    "name": "Leaf Green",
+    "material": "PLA",
+    "finish": "Matte",
+    "hex": "#4b9560",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 11,
+    "name": "Pink",
+    "material": "PLA",
+    "finish": "Standard",
+    "hex": "#ff80ff",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 12,
+    "name": "Grey Marble",
+    "material": "PLA",
+    "finish": "Marble",
+    "hex": "#c0c0c0",
+    "hex2": "#000000",
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 13,
+    "name": "Purple",
+    "material": "PLA",
+    "finish": "Silk",
+    "hex": "#8000ff",
+    "hex2": null,
+    "colors": null,
+    "status": "In Stock",
+    "prints": []
+  },
+  {
+    "id": 14,
+    "name": "Rainbow Matte",
+    "material": "PLA",
+    "finish": "Gradient",
+    "hex": "#00e5ff",
+    "hex2": null,
+    "colors": [
+      "#80ff00",
+      "#ffff00",
+      "#ff00ff",
+      "#8080ff",
+      "#0080ff"
+    ],
+    "status": "In Stock",
+    "prints": []
+  }
+]

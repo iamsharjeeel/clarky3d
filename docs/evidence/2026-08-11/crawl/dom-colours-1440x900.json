@@ -1,0 +1,96 @@
+{
+  "pageId": "colours-1440x900",
+  "url": "https://clarky3d.com/#colours",
+  "title": "Colours — Clarky3D",
+  "lang": "en",
+  "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+  "robots": null,
+  "canonical": "https://clarky3d.com/",
+  "ogTitle": "Clarky3D — made-to-order 3D prints",
+  "ogUrl": "https://print.clarkyau.com/",
+  "ogImage": "https://print.clarkyau.com/og-default.jpg",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "COLOUR LIBRARY"
+    },
+    {
+      "tag": "h3",
+      "text": "IN STOCK 14"
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Main"
+    },
+    {
+      "tag": "main",
+      "role": null,
+      "name": null
+    },
+    {
+      "tag": "nav",
+      "role": null,
+      "name": "Breadcrumb"
+    }
+  ],
+  "linkCount": 3,
+  "links": [
+    {
+      "href": "#main",
+      "text": "SKIP TO CONTENT"
+    },
+    {
+      "href": "#",
+      "text": "CLARKY3D"
+    },
+    {
+      "href": "#",
+      "text": "HOME"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "FEATURED",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CATALOGUE ▾",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "COLOURS",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "CART",
+      "aria": "Open cart",
+      "disabled": false
+    },
+    {
+      "text": "ALL",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "PLA",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "forms": [],
+  "images": [],
+  "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART COLOUR LIBRARY HOME / COLOURS TYPE ALL PLA IN STOCK 14 White PLA · MATTE #FFFFFF IN STOCK Black PLA · MATTE #000000 IN STOCK Red PLA #FF0000 IN STOCK Sea Blue PLA · MATTE #00629B IN STOCK Black PLA #000000 IN STOCK White PLA #FFFFFF IN STOCK Burnt Grey PLA · MATTE #4B4F54 IN STOCK Dirty Purple PLA · MATTE #7E5475 IN STOCK Stepped On Orange PLA · MATTE #FF8F1C IN STOCK Leaf Green PLA · MATTE #4B9560 IN STOCK Pink PLA #FF80FF IN STOCK Grey Marble PLA · MARBLE #C0C0C0 IN STOCK Purple PLA · SILK #8000FF IN STOCK Rainbow Matte PLA · GRADIENT #00E5FF IN STOCK",
+  "overflowX": false,
+  "rootChildren": 1
+}

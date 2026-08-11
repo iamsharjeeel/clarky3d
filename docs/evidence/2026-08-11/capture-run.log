@@ -1,0 +1,5108 @@
+{
+  "capturedAt": "2026-08-11T03:01:36.452Z",
+  "routes": [
+    {
+      "id": "home",
+      "url": "https://clarky3d.com/",
+      "screenshots": [
+        "home--360x800.png",
+        "home--768x1024.png",
+        "home--1440x900.png",
+        "home--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "home-360x800",
+          "url": "https://clarky3d.com/",
+          "title": "Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "FEATURED ITEMS"
+            },
+            {
+              "tag": "h3",
+              "text": "BROWSE THE CATALOGUE 4 CATEGORIES"
+            },
+            {
+              "tag": "h3",
+              "text": "LATEST RELEASES 11 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            },
+            {
+              "tag": "h3",
+              "text": "COLOURS ON THE SHELF 14 IN STOCK"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            }
+          ],
+          "linkCount": 18,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "Hotwheels 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "Retro Gaming 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Misc_Items",
+              "text": "Misc Items 2 SECTIONS · 2 ITEMS"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "Pep Things 5 SECTIONS · 12 ITEMS"
+            },
+            {
+              "href": "#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+              "text": "NEW Stackable SNES Drawer (7-Cart) $65.00 SNES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "POPULAR Modular Case $25.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "NEW The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "NEW Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "NEW Label Helper Stand $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "NEW Ten + One Case $25.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "NEW Bulk 50 Case $60.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "NEW Travel Case with Cooling $35.00 TRAVEL CASES"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "POPULAR Labeled Vial Caps $2.00 MISC ITEMS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "POPULAR NovoPen 4 Spacers $10.00 PENS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00 PENS"
+            },
+            {
+              "href": "#colours",
+              "text": "SEE THE FULL LIBRARY"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 0,
+              "h": 0
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS FEATURED ITEMS I'm always adding new products, so keep an eye out for new additions. Checkout the latest releases below or checkout the catalogue above. All items are print on demand. BROWSE THE CATALOGUE 4 CATEGORIES Hotwheels 1 SECTION · 1 ITEM Retro Gaming 1 SECTION · 1 ITEM Misc Items 2 SECTIONS · 2 ITEMS Pep Things 5 SECTIONS · 12 ITEMS LATEST RELEASES 11 ITEMS NEW Stackable SNES Drawer (7-Cart) $65.00 SNES POPULAR Modular Case $25.00 CASES NEW The Secure Crumpet Custom Trays $90.00 CASES NEW Mini Label Helper $15.00 LABELING NEW Label Helper Stand $15.00 LABELING NEW Ten + One Case $25.00 LABELING NEW Bulk 50 Case $60.00 LABELING NEW Travel Case with Cooling $35.00 TRAVEL CASES POPULAR Labeled Vial Caps $2.00 MISC ITEMS POPULAR NovoPen 4 Spacers $10.00 PENS 9 Pen Silo $35.00 PENS COLOURS ON THE SHELF 14 IN STOCK White Black Red Sea Blue Black White Burnt Grey Dirty Purple Stepped On Orange Leaf Green Pink Grey Marble IN STOCK Every colour above is on the shelf right now. Pick one per part when you order, or leave it to Clarky. SEE THE FULL LIBRARY",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "home-768x1024",
+          "url": "https://clarky3d.com/",
+          "title": "Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "FEATURED ITEMS"
+            },
+            {
+              "tag": "h3",
+              "text": "BROWSE THE CATALOGUE 4 CATEGORIES"
+            },
+            {
+              "tag": "h3",
+              "text": "LATEST RELEASES 11 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            },
+            {
+              "tag": "h3",
+              "text": "COLOURS ON THE SHELF 14 IN STOCK"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            }
+          ],
+          "linkCount": 18,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "Hotwheels 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "Retro Gaming 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Misc_Items",
+              "text": "Misc Items 2 SECTIONS · 2 ITEMS"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "Pep Things 5 SECTIONS · 12 ITEMS"
+            },
+            {
+              "href": "#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+              "text": "NEW Stackable SNES Drawer (7-Cart) $65.00 SNES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "POPULAR Modular Case $25.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "NEW The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "NEW Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "NEW Label Helper Stand $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "NEW Ten + One Case $25.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "NEW Bulk 50 Case $60.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "NEW Travel Case with Cooling $35.00 TRAVEL CASES"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "POPULAR Labeled Vial Caps $2.00 MISC ITEMS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "POPULAR NovoPen 4 Spacers $10.00 PENS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00 PENS"
+            },
+            {
+              "href": "#colours",
+              "text": "SEE THE FULL LIBRARY"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART FEATURED ITEMS I'm always adding new products, so keep an eye out for new additions. Checkout the latest releases below or checkout the catalogue above. All items are print on demand. BROWSE THE CATALOGUE 4 CATEGORIES Hotwheels 1 SECTION · 1 ITEM Retro Gaming 1 SECTION · 1 ITEM Misc Items 2 SECTIONS · 2 ITEMS Pep Things 5 SECTIONS · 12 ITEMS LATEST RELEASES 11 ITEMS NEW Stackable SNES Drawer (7-Cart) $65.00 SNES POPULAR Modular Case $25.00 CASES NEW The Secure Crumpet Custom Trays $90.00 CASES NEW Mini Label Helper $15.00 LABELING NEW Label Helper Stand $15.00 LABELING NEW Ten + One Case $25.00 LABELING NEW Bulk 50 Case $60.00 LABELING NEW Travel Case with Cooling $35.00 TRAVEL CASES POPULAR Labeled Vial Caps $2.00 MISC ITEMS POPULAR NovoPen 4 Spacers $10.00 PENS 9 Pen Silo $35.00 PENS COLOURS ON THE SHELF 14 IN STOCK White Black Red Sea Blue Black White Burnt Grey Dirty Purple Stepped On Orange Leaf Green Pink Grey Marble IN STOCK Every colour above is on the shelf right now. Pick one per part when you order, or leave it to Clarky. SEE THE FULL LIBRARY",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "home-1440x900",
+          "url": "https://clarky3d.com/",
+          "title": "Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "FEATURED ITEMS"
+            },
+            {
+              "tag": "h3",
+              "text": "BROWSE THE CATALOGUE 4 CATEGORIES"
+            },
+            {
+              "tag": "h3",
+              "text": "LATEST RELEASES 11 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            },
+            {
+              "tag": "h3",
+              "text": "COLOURS ON THE SHELF 14 IN STOCK"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            }
+          ],
+          "linkCount": 18,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "Hotwheels 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "Retro Gaming 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Misc_Items",
+              "text": "Misc Items 2 SECTIONS · 2 ITEMS"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "Pep Things 5 SECTIONS · 12 ITEMS"
+            },
+            {
+              "href": "#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+              "text": "NEW Stackable SNES Drawer (7-Cart) $65.00 SNES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "POPULAR Modular Case $25.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "NEW The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "NEW Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "NEW Label Helper Stand $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "NEW Ten + One Case $25.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "NEW Bulk 50 Case $60.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "NEW Travel Case with Cooling $35.00 TRAVEL CASES"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "POPULAR Labeled Vial Caps $2.00 MISC ITEMS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "POPULAR NovoPen 4 Spacers $10.00 PENS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00 PENS"
+            },
+            {
+              "href": "#colours",
+              "text": "SEE THE FULL LIBRARY"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART FEATURED ITEMS I'm always adding new products, so keep an eye out for new additions. Checkout the latest releases below or checkout the catalogue above. All items are print on demand. BROWSE THE CATALOGUE 4 CATEGORIES Hotwheels 1 SECTION · 1 ITEM Retro Gaming 1 SECTION · 1 ITEM Misc Items 2 SECTIONS · 2 ITEMS Pep Things 5 SECTIONS · 12 ITEMS LATEST RELEASES 11 ITEMS NEW Stackable SNES Drawer (7-Cart) $65.00 SNES POPULAR Modular Case $25.00 CASES NEW The Secure Crumpet Custom Trays $90.00 CASES NEW Mini Label Helper $15.00 LABELING NEW Label Helper Stand $15.00 LABELING NEW Ten + One Case $25.00 LABELING NEW Bulk 50 Case $60.00 LABELING NEW Travel Case with Cooling $35.00 TRAVEL CASES POPULAR Labeled Vial Caps $2.00 MISC ITEMS POPULAR NovoPen 4 Spacers $10.00 PENS 9 Pen Silo $35.00 PENS COLOURS ON THE SHELF 14 IN STOCK White Black Red Sea Blue Black White Burnt Grey Dirty Purple Stepped On Orange Leaf Green Pink Grey Marble IN STOCK Every colour above is on the shelf right now. Pick one per part when you order, or leave it to Clarky. SEE THE FULL LIBRARY",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "home-1920x1080",
+          "url": "https://clarky3d.com/",
+          "title": "Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "FEATURED ITEMS"
+            },
+            {
+              "tag": "h3",
+              "text": "BROWSE THE CATALOGUE 4 CATEGORIES"
+            },
+            {
+              "tag": "h3",
+              "text": "LATEST RELEASES 11 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            },
+            {
+              "tag": "h3",
+              "text": "COLOURS ON THE SHELF 14 IN STOCK"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            }
+          ],
+          "linkCount": 18,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "Hotwheels 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "Retro Gaming 1 SECTION · 1 ITEM"
+            },
+            {
+              "href": "#Misc_Items",
+              "text": "Misc Items 2 SECTIONS · 2 ITEMS"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "Pep Things 5 SECTIONS · 12 ITEMS"
+            },
+            {
+              "href": "#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+              "text": "NEW Stackable SNES Drawer (7-Cart) $65.00 SNES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "POPULAR Modular Case $25.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "NEW The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "NEW Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "NEW Label Helper Stand $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "NEW Ten + One Case $25.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "NEW Bulk 50 Case $60.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "NEW Travel Case with Cooling $35.00 TRAVEL CASES"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "POPULAR Labeled Vial Caps $2.00 MISC ITEMS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "POPULAR NovoPen 4 Spacers $10.00 PENS"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00 PENS"
+            },
+            {
+              "href": "#colours",
+              "text": "SEE THE FULL LIBRARY"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART FEATURED ITEMS I'm always adding new products, so keep an eye out for new additions. Checkout the latest releases below or checkout the catalogue above. All items are print on demand. BROWSE THE CATALOGUE 4 CATEGORIES Hotwheels 1 SECTION · 1 ITEM Retro Gaming 1 SECTION · 1 ITEM Misc Items 2 SECTIONS · 2 ITEMS Pep Things 5 SECTIONS · 12 ITEMS LATEST RELEASES 11 ITEMS NEW Stackable SNES Drawer (7-Cart) $65.00 SNES POPULAR Modular Case $25.00 CASES NEW The Secure Crumpet Custom Trays $90.00 CASES NEW Mini Label Helper $15.00 LABELING NEW Label Helper Stand $15.00 LABELING NEW Ten + One Case $25.00 LABELING NEW Bulk 50 Case $60.00 LABELING NEW Travel Case with Cooling $35.00 TRAVEL CASES POPULAR Labeled Vial Caps $2.00 MISC ITEMS POPULAR NovoPen 4 Spacers $10.00 PENS 9 Pen Silo $35.00 PENS COLOURS ON THE SHELF 14 IN STOCK White Black Red Sea Blue Black White Burnt Grey Dirty Purple Stepped On Orange Leaf Green Pink Grey Marble IN STOCK Every colour above is on the shelf right now. Pick one per part when you order, or leave it to Clarky. SEE THE FULL LIBRARY",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      }
+    },
+    {
+      "id": "colours",
+      "url": "https://clarky3d.com/",
+      "screenshots": [
+        "colours--360x800.png",
+        "colours--768x1024.png",
+        "colours--1440x900.png",
+        "colours--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "colours-360x800",
+          "url": "https://clarky3d.com/#colours",
+          "title": "Colours — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "COLOUR LIBRARY"
+            },
+            {
+              "tag": "h3",
+              "text": "IN STOCK 14"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 3,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "ALL",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "PLA",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS COLOUR LIBRARY HOME / COLOURS TYPE ALL PLA IN STOCK 14 White PLA · MATTE #FFFFFF IN STOCK Black PLA · MATTE #000000 IN STOCK Red PLA #FF0000 IN STOCK Sea Blue PLA · MATTE #00629B IN STOCK Black PLA #000000 IN STOCK White PLA #FFFFFF IN STOCK Burnt Grey PLA · MATTE #4B4F54 IN STOCK Dirty Purple PLA · MATTE #7E5475 IN STOCK Stepped On Orange PLA · MATTE #FF8F1C IN STOCK Leaf Green PLA · MATTE #4B9560 IN STOCK Pink PLA #FF80FF IN STOCK Grey Marble PLA · MARBLE #C0C0C0 IN STOCK Purple PLA · SILK #8000FF IN STOCK Rainbow Matte PLA · GRADIENT #00E5FF IN STOCK",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "colours-768x1024",
+          "url": "https://clarky3d.com/#colours",
+          "title": "Colours — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "COLOUR LIBRARY"
+            },
+            {
+              "tag": "h3",
+              "text": "IN STOCK 14"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 3,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "ALL",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "PLA",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART COLOUR LIBRARY HOME / COLOURS TYPE ALL PLA IN STOCK 14 White PLA · MATTE #FFFFFF IN STOCK Black PLA · MATTE #000000 IN STOCK Red PLA #FF0000 IN STOCK Sea Blue PLA · MATTE #00629B IN STOCK Black PLA #000000 IN STOCK White PLA #FFFFFF IN STOCK Burnt Grey PLA · MATTE #4B4F54 IN STOCK Dirty Purple PLA · MATTE #7E5475 IN STOCK Stepped On Orange PLA · MATTE #FF8F1C IN STOCK Leaf Green PLA · MATTE #4B9560 IN STOCK Pink PLA #FF80FF IN STOCK Grey Marble PLA · MARBLE #C0C0C0 IN STOCK Purple PLA · SILK #8000FF IN STOCK Rainbow Matte PLA · GRADIENT #00E5FF IN STOCK",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "colours-1440x900",
+          "url": "https://clarky3d.com/#colours",
+          "title": "Colours — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "COLOUR LIBRARY"
+            },
+            {
+              "tag": "h3",
+              "text": "IN STOCK 14"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 3,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "ALL",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "PLA",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART COLOUR LIBRARY HOME / COLOURS TYPE ALL PLA IN STOCK 14 White PLA · MATTE #FFFFFF IN STOCK Black PLA · MATTE #000000 IN STOCK Red PLA #FF0000 IN STOCK Sea Blue PLA · MATTE #00629B IN STOCK Black PLA #000000 IN STOCK White PLA #FFFFFF IN STOCK Burnt Grey PLA · MATTE #4B4F54 IN STOCK Dirty Purple PLA · MATTE #7E5475 IN STOCK Stepped On Orange PLA · MATTE #FF8F1C IN STOCK Leaf Green PLA · MATTE #4B9560 IN STOCK Pink PLA #FF80FF IN STOCK Grey Marble PLA · MARBLE #C0C0C0 IN STOCK Purple PLA · SILK #8000FF IN STOCK Rainbow Matte PLA · GRADIENT #00E5FF IN STOCK",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "colours-1920x1080",
+          "url": "https://clarky3d.com/#colours",
+          "title": "Colours — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "COLOUR LIBRARY"
+            },
+            {
+              "tag": "h3",
+              "text": "IN STOCK 14"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 3,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "ALL",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "PLA",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART COLOUR LIBRARY HOME / COLOURS TYPE ALL PLA IN STOCK 14 White PLA · MATTE #FFFFFF IN STOCK Black PLA · MATTE #000000 IN STOCK Red PLA #FF0000 IN STOCK Sea Blue PLA · MATTE #00629B IN STOCK Black PLA #000000 IN STOCK White PLA #FFFFFF IN STOCK Burnt Grey PLA · MATTE #4B4F54 IN STOCK Dirty Purple PLA · MATTE #7E5475 IN STOCK Stepped On Orange PLA · MATTE #FF8F1C IN STOCK Leaf Green PLA · MATTE #4B9560 IN STOCK Pink PLA #FF80FF IN STOCK Grey Marble PLA · MARBLE #C0C0C0 IN STOCK Purple PLA · SILK #8000FF IN STOCK Rainbow Matte PLA · GRADIENT #00E5FF IN STOCK",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      }
+    },
+    {
+      "id": "product-featured",
+      "url": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+      "screenshots": [
+        "product-featured--360x800.png",
+        "product-featured--768x1024.png",
+        "product-featured--1440x900.png",
+        "product-featured--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "product-featured-360x800",
+          "url": "https://clarky3d.com/#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "title": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "lang": "en",
+          "description": "$65.00 · Retro Gaming / Snes — A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogTitle": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Outer Shell colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Draw colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "RETRO GAMING"
+            },
+            {
+              "href": "#Retro_Gaming/Snes",
+              "text": "SNES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Outer Shell colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Draw colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200",
+              "alt": "Stackable SNES Drawer (7-Cart)",
+              "w": 1200,
+              "h": 1593
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS HOME / RETRO GAMING / SNES / STACKABLE SNES DRAWER (7-CART) SHARE Stackable SNES Drawer (7-Cart) $65.00 MADE TO ORDER ABOUT THIS PRINT A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need more space? Just stack another one right on top. PRINT COLOURS 0 OF 2 SET OUTER SHELL Any / Lucky Dip ▾ DRAW Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "product-featured-768x1024",
+          "url": "https://clarky3d.com/#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "title": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "lang": "en",
+          "description": "$65.00 · Retro Gaming / Snes — A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogTitle": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Outer Shell colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Draw colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "RETRO GAMING"
+            },
+            {
+              "href": "#Retro_Gaming/Snes",
+              "text": "SNES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Outer Shell colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Draw colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200",
+              "alt": "Stackable SNES Drawer (7-Cart)",
+              "w": 1200,
+              "h": 1593
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / RETRO GAMING / SNES / STACKABLE SNES DRAWER (7-CART) SHARE Stackable SNES Drawer (7-Cart) $65.00 MADE TO ORDER ABOUT THIS PRINT A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need more space? Just stack another one right on top. PRINT COLOURS 0 OF 2 SET OUTER SHELL Any / Lucky Dip ▾ DRAW Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "product-featured-1440x900",
+          "url": "https://clarky3d.com/#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "title": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "lang": "en",
+          "description": "$65.00 · Retro Gaming / Snes — A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogTitle": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Outer Shell colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Draw colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "RETRO GAMING"
+            },
+            {
+              "href": "#Retro_Gaming/Snes",
+              "text": "SNES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Outer Shell colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Draw colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200",
+              "alt": "Stackable SNES Drawer (7-Cart)",
+              "w": 1200,
+              "h": 1593
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / RETRO GAMING / SNES / STACKABLE SNES DRAWER (7-CART) SHARE Stackable SNES Drawer (7-Cart) $65.00 MADE TO ORDER ABOUT THIS PRINT A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need more space? Just stack another one right on top. PRINT COLOURS 0 OF 2 SET OUTER SHELL Any / Lucky Dip ▾ DRAW Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "product-featured-1920x1080",
+          "url": "https://clarky3d.com/#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "title": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "lang": "en",
+          "description": "$65.00 · Retro Gaming / Snes — A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogTitle": "Stackable SNES Drawer (7-Cart) — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Stackable SNES Drawer (7-Cart)"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Outer Shell colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Draw colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Retro_Gaming",
+              "text": "RETRO GAMING"
+            },
+            {
+              "href": "#Retro_Gaming/Snes",
+              "text": "SNES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Outer Shell colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Draw colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F22&w=1200",
+              "alt": "Stackable SNES Drawer (7-Cart)",
+              "w": 1200,
+              "h": 1593
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / RETRO GAMING / SNES / STACKABLE SNES DRAWER (7-CART) SHARE Stackable SNES Drawer (7-Cart) $65.00 MADE TO ORDER ABOUT THIS PRINT A clean, modular storage solution for the retro hoarder. This pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. Need more space? Just stack another one right on top. PRINT COLOURS 0 OF 2 SET OUTER SHELL Any / Lucky Dip ▾ DRAW Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      },
+      "cart": {
+        "orderHref": "https://t.me/Clarky_AU?text=Hi%20Clarky%2C%20I'd%20like%20to%20order%20this%20print%3A%0A%0AStackable%20SNES%20Drawer%20(7-Cart)%0AOuter%20Shell%3A%20Any%20%2F%20Lucky%20Dip%0ADraw%3A%20Any%20%2F%20Lucky%20Dip%0A%2465.00%0A%0ATotal%3A%20%2465.00%0AShipping%20to%20be%20confirmed.",
+        "orderText": "ORDER ON TELEGRAM",
+        "cartText": "SKIP TO CONTENT\nCLARKY3D\nFEATURED\nCATALOGUE ▾\nCOLOURS\nCART\n1\nHOME\n/\nRETRO GAMING\n/\nSNES\n/\nSTACKABLE SNES DRAWER (7-CART)\nSHARE\nStackable SNES Drawer (7-Cart)\n\n$65.00\n\nMADE TO ORDER\nABOUT THIS PRINT\nA clean, modular storage solution for the retro hoarder. \nThis pull-out drawer perfectly secures seven SNES cartridges, keeping them dust-free and ready to play. \n\nNeed more space? Just stack another one right on top.\nPRINT COLOURS\n0 OF 2 SET\nOUTER SHELL\nAny / Lucky Dip\n▾\nDRAW\nAny / Lucky Dip\n▾\n\nThis one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick.\n\nADDED TO CART\nNeed something different, or a colour that is not listed?\nMessage Clarky →\nYOUR CART\n✕\nStackable SNES Drawer (7-Cart)\nRETRO GAMING / SNES\nOUTER SHELL\nAny / Lucky Dip\nDRAW\nAny / Lucky Dip\n$65.00\n−\n1\n+\nREMOVE\nTOTAL\n$65.00 AUD\nSHIPPING\nTO BE CALCULATED\nORDER ON TELEGRAM\n\nOpens Telegram with your order written out. Nothing is sent until you press send.\n\nCLEAR CART"
+      }
+    },
+    {
+      "id": "product-popular",
+      "url": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+      "screenshots": [
+        "product-popular--360x800.png",
+        "product-popular--768x1024.png",
+        "product-popular--1440x900.png",
+        "product-popular--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "product-popular-360x800",
+          "url": "https://clarky3d.com/#Vial_Storage/3ml_Cases/Base_Case",
+          "title": "Modular Case — Clarky3D",
+          "lang": "en",
+          "description": "$25.00 · Pep Things / Cases — The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogTitle": "Modular Case — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h3",
+              "text": "More from Pep Things →"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "div",
+              "role": "group",
+              "name": "Modular Case photos"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Lid / Base colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Latches colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Inlay colour"
+            }
+          ],
+          "linkCount": 11,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "PEP THINGS"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "CASES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "More from Pep Things →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00 LABELING"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 1 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 2 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 3 of 3",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Lid / Base colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Latches colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Inlay colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200",
+              "alt": "Modular Case",
+              "w": 662,
+              "h": 875
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_1.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_3.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS HOME / PEP THINGS / CASES / MODULAR CASE SHARE Modular Case $25.00 MADE TO ORDER ABOUT THIS PRINT The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right from the start. Just let me know your layout when you order: - Standard insert (8x 3ml and 6x 10ml) - 3ml King - (12x 3ml and 4x 10ml) Not what you exactly want? Let me know and we can make something to your requirements Choose your own color combo for the: - Outer Case (Lid & Base) - Locking Latches - Internal Vial Insert CASE INSERT STANDARD INSERT (8X 3ML AND 6X 10ML) CASE INSERT Standard insert (8x 3ml and 6x 10ml) 3ml King - (12x 3ml and 4x 10ml) Custom Design PRINT COLOURS 0 OF 3 SET LID / BASE Any / Lucky Dip ▾ LATCHES Any / Lucky Dip ▾ INLAY Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky → More from Pep Things → Medium Case 3ml 10x2 $20.00 CASES The Secure Crumpet Custom Trays $90.00 CASES Mini",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "product-popular-768x1024",
+          "url": "https://clarky3d.com/#Vial_Storage/3ml_Cases/Base_Case",
+          "title": "Modular Case — Clarky3D",
+          "lang": "en",
+          "description": "$25.00 · Pep Things / Cases — The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogTitle": "Modular Case — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h3",
+              "text": "More from Pep Things →"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "div",
+              "role": "group",
+              "name": "Modular Case photos"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Lid / Base colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Latches colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Inlay colour"
+            }
+          ],
+          "linkCount": 11,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "PEP THINGS"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "CASES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "More from Pep Things →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00 LABELING"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 1 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 2 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 3 of 3",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Lid / Base colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Latches colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Inlay colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200",
+              "alt": "Modular Case",
+              "w": 662,
+              "h": 875
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_1.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_3.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / PEP THINGS / CASES / MODULAR CASE SHARE Modular Case $25.00 MADE TO ORDER ABOUT THIS PRINT The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right from the start. Just let me know your layout when you order: - Standard insert (8x 3ml and 6x 10ml) - 3ml King - (12x 3ml and 4x 10ml) Not what you exactly want? Let me know and we can make something to your requirements Choose your own color combo for the: - Outer Case (Lid & Base) - Locking Latches - Internal Vial Insert CASE INSERT STANDARD INSERT (8X 3ML AND 6X 10ML) CASE INSERT Standard insert (8x 3ml and 6x 10ml) 3ml King - (12x 3ml and 4x 10ml) Custom Design PRINT COLOURS 0 OF 3 SET LID / BASE Any / Lucky Dip ▾ LATCHES Any / Lucky Dip ▾ INLAY Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky → More from Pep Things → Medium Case 3ml 10x2 $20.00 CASES The Secure Crumpet Custom Trays $90.00 CASES",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "product-popular-1440x900",
+          "url": "https://clarky3d.com/#Vial_Storage/3ml_Cases/Base_Case",
+          "title": "Modular Case — Clarky3D",
+          "lang": "en",
+          "description": "$25.00 · Pep Things / Cases — The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogTitle": "Modular Case — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h3",
+              "text": "More from Pep Things →"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "div",
+              "role": "group",
+              "name": "Modular Case photos"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Lid / Base colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Latches colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Inlay colour"
+            }
+          ],
+          "linkCount": 11,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "PEP THINGS"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "CASES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "More from Pep Things →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00 LABELING"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 1 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 2 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 3 of 3",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Lid / Base colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Latches colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Inlay colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200",
+              "alt": "Modular Case",
+              "w": 662,
+              "h": 875
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_1.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_3.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / PEP THINGS / CASES / MODULAR CASE SHARE Modular Case $25.00 MADE TO ORDER ABOUT THIS PRINT The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right from the start. Just let me know your layout when you order: - Standard insert (8x 3ml and 6x 10ml) - 3ml King - (12x 3ml and 4x 10ml) Not what you exactly want? Let me know and we can make something to your requirements Choose your own color combo for the: - Outer Case (Lid & Base) - Locking Latches - Internal Vial Insert CASE INSERT STANDARD INSERT (8X 3ML AND 6X 10ML) CASE INSERT Standard insert (8x 3ml and 6x 10ml) 3ml King - (12x 3ml and 4x 10ml) Custom Design PRINT COLOURS 0 OF 3 SET LID / BASE Any / Lucky Dip ▾ LATCHES Any / Lucky Dip ▾ INLAY Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky → More from Pep Things → Medium Case 3ml 10x2 $20.00 CASES The Secure Crumpet Custom Trays $90.00 CASES",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "product-popular-1920x1080",
+          "url": "https://clarky3d.com/#Vial_Storage/3ml_Cases/Base_Case",
+          "title": "Modular Case — Clarky3D",
+          "lang": "en",
+          "description": "$25.00 · Pep Things / Cases — The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right…",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogTitle": "Modular Case — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h3",
+              "text": "More from Pep Things →"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "div",
+              "role": "group",
+              "name": "Modular Case photos"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Lid / Base colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Latches colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Inlay colour"
+            }
+          ],
+          "linkCount": 11,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "PEP THINGS"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "CASES"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            },
+            {
+              "href": "#Vial_Storage",
+              "text": "More from Pep Things →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00 CASES"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00 LABELING"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00 LABELING"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 1 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 2 of 3",
+              "disabled": false
+            },
+            {
+              "text": "",
+              "aria": "Show photo 3 of 3",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Lid / Base colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Latches colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Inlay colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=1200",
+              "alt": "Modular Case",
+              "w": 662,
+              "h": 875
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_1.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FMulti_Case%2FBase_Case%2Fprinted_3.jpg&w=100&h=100&fit=cover",
+              "alt": "",
+              "w": 100,
+              "h": 100
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / PEP THINGS / CASES / MODULAR CASE SHARE Modular Case $25.00 MADE TO ORDER ABOUT THIS PRINT The Modular Case Why cram mismatched vials into a generic box? This case is built around custom inserts, letting you dictate exactly how your insulin is stored right from the start. Just let me know your layout when you order: - Standard insert (8x 3ml and 6x 10ml) - 3ml King - (12x 3ml and 4x 10ml) Not what you exactly want? Let me know and we can make something to your requirements Choose your own color combo for the: - Outer Case (Lid & Base) - Locking Latches - Internal Vial Insert CASE INSERT STANDARD INSERT (8X 3ML AND 6X 10ML) CASE INSERT Standard insert (8x 3ml and 6x 10ml) 3ml King - (12x 3ml and 4x 10ml) Custom Design PRINT COLOURS 0 OF 3 SET LID / BASE Any / Lucky Dip ▾ LATCHES Any / Lucky Dip ▾ INLAY Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky → More from Pep Things → Medium Case 3ml 10x2 $20.00 CASES The Secure Crumpet Custom Trays $90.00 CASES",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      }
+    },
+    {
+      "id": "product-priced",
+      "url": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+      "screenshots": [
+        "product-priced--360x800.png",
+        "product-priced--768x1024.png",
+        "product-priced--1440x900.png",
+        "product-priced--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "product-priced-360x800",
+          "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+          "title": "5x1 Rack — Clarky3D",
+          "lang": "en",
+          "description": "$10.00 · Hotwheels / Display Racks — A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogTitle": "5x1 Rack — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "5x1 Rack"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Uprights colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Platforms colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "HOTWHEELS"
+            },
+            {
+              "href": "#Hotwheels/Display_Racks",
+              "text": "DISPLAY RACKS"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Uprights colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Platforms colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200",
+              "alt": "5x1 Rack",
+              "w": 1025,
+              "h": 1362
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS HOME / HOTWHEELS / DISPLAY RACKS / 5X1 RACK SHARE 5x1 Rack $10.00 MADE TO ORDER ABOUT THIS PRINT A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars PRINT COLOURS 0 OF 2 SET UPRIGHTS Any / Lucky Dip ▾ PLATFORMS Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "product-priced-768x1024",
+          "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+          "title": "5x1 Rack — Clarky3D",
+          "lang": "en",
+          "description": "$10.00 · Hotwheels / Display Racks — A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogTitle": "5x1 Rack — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "5x1 Rack"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Uprights colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Platforms colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "HOTWHEELS"
+            },
+            {
+              "href": "#Hotwheels/Display_Racks",
+              "text": "DISPLAY RACKS"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Uprights colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Platforms colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200",
+              "alt": "5x1 Rack",
+              "w": 1025,
+              "h": 1362
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / HOTWHEELS / DISPLAY RACKS / 5X1 RACK SHARE 5x1 Rack $10.00 MADE TO ORDER ABOUT THIS PRINT A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars PRINT COLOURS 0 OF 2 SET UPRIGHTS Any / Lucky Dip ▾ PLATFORMS Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "product-priced-1440x900",
+          "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+          "title": "5x1 Rack — Clarky3D",
+          "lang": "en",
+          "description": "$10.00 · Hotwheels / Display Racks — A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogTitle": "5x1 Rack — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "5x1 Rack"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Uprights colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Platforms colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "HOTWHEELS"
+            },
+            {
+              "href": "#Hotwheels/Display_Racks",
+              "text": "DISPLAY RACKS"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Uprights colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Platforms colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200",
+              "alt": "5x1 Rack",
+              "w": 1025,
+              "h": 1362
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / HOTWHEELS / DISPLAY RACKS / 5X1 RACK SHARE 5x1 Rack $10.00 MADE TO ORDER ABOUT THIS PRINT A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars PRINT COLOURS 0 OF 2 SET UPRIGHTS Any / Lucky Dip ▾ PLATFORMS Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "product-priced-1920x1080",
+          "url": "https://clarky3d.com/#Hotwheels/Display_Racks/5x1_Rack",
+          "title": "5x1 Rack — Clarky3D",
+          "lang": "en",
+          "description": "$10.00 · Hotwheels / Display Racks — A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars",
+          "robots": null,
+          "canonical": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogTitle": "5x1 Rack — Clarky3D",
+          "ogUrl": "https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack",
+          "ogImage": "https://clarky3d.com/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200&h=630&fit=cover&fm=jpg&q=80",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "5x1 Rack"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Uprights colour"
+            },
+            {
+              "tag": "button",
+              "role": "combobox",
+              "name": "Platforms colour"
+            }
+          ],
+          "linkCount": 6,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Hotwheels",
+              "text": "HOTWHEELS"
+            },
+            {
+              "href": "#Hotwheels/Display_Racks",
+              "text": "DISPLAY RACKS"
+            },
+            {
+              "href": "https://t.me/Clarky_AU",
+              "text": "Message Clarky →"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            },
+            {
+              "text": "SHARE",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Uprights colour",
+              "disabled": false
+            },
+            {
+              "text": "Any / Lucky Dip ▾",
+              "aria": "Platforms colour",
+              "disabled": false
+            },
+            {
+              "text": "ADD TO CART",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FHotwheels%2FDisplay_Racks%2F5x1_Rack%2Fhw5x1_printed_1.jpg&w=1200",
+              "alt": "5x1 Rack",
+              "w": 1025,
+              "h": 1362
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART HOME / HOTWHEELS / DISPLAY RACKS / 5X1 RACK SHARE 5x1 Rack $10.00 MADE TO ORDER ABOUT THIS PRINT A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble. Holds: - 5x 1:64 model cars PRINT COLOURS 0 OF 2 SET UPRIGHTS Any / Lucky Dip ▾ PLATFORMS Any / Lucky Dip ▾ This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick. ADD TO CART Need something different, or a colour that is not listed? Message Clarky →",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      }
+    },
+    {
+      "id": "category-vial",
+      "url": "https://clarky3d.com/",
+      "screenshots": [
+        "category-vial--360x800.png",
+        "category-vial--768x1024.png",
+        "category-vial--1440x900.png",
+        "category-vial--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "category-vial-360x800",
+          "url": "https://clarky3d.com/#Vial_Storage",
+          "title": "Pep Things — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Pep Things"
+            },
+            {
+              "tag": "h3",
+              "text": "Cases → 3 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h3",
+              "text": "Labeling → 4 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h3",
+              "text": "Travel Cases → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case 1"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h3",
+              "text": "Misc Items → 1 ITEM"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h3",
+              "text": "Pens → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 20,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "Cases →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "Modular Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling",
+              "text": "Labeling →"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "Ten + One Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "Bulk 50 Case $60.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases",
+              "text": "Travel Cases →"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_1",
+              "text": "Travel Case 1 $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "Travel Case with Cooling $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items",
+              "text": "Misc Items →"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "Labeled Vial Caps $2.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens",
+              "text": "Pens →"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "NovoPen 4 Spacers $10.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "Cart",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FTravel_Cases%2FTravel_Case_1%2Ftc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 0,
+              "h": 0
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS Pep Things HOME / PEP THINGS Cases → 3 ITEMS Medium Case 3ml 10x2 $20.00 Modular Case $25.00 The Secure Crumpet Custom Trays $90.00 Labeling → 4 ITEMS Mini Label Helper $15.00 Label Helper Stand $15.00 Ten + One Case $25.00 Bulk 50 Case $60.00 Travel Cases → 2 ITEMS Travel Case 1 $35.00 Travel Case with Cooling $35.00 Misc Items → 1 ITEM Labeled Vial Caps $2.00 Pens → 2 ITEMS NovoPen 4 Spacers $10.00 9 Pen Silo $35.00",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "768x1024": {
+          "pageId": "category-vial-768x1024",
+          "url": "https://clarky3d.com/#Vial_Storage",
+          "title": "Pep Things — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Pep Things"
+            },
+            {
+              "tag": "h3",
+              "text": "Cases → 3 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h3",
+              "text": "Labeling → 4 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h3",
+              "text": "Travel Cases → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case 1"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h3",
+              "text": "Misc Items → 1 ITEM"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h3",
+              "text": "Pens → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 20,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "Cases →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "Modular Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling",
+              "text": "Labeling →"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "Ten + One Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "Bulk 50 Case $60.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases",
+              "text": "Travel Cases →"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_1",
+              "text": "Travel Case 1 $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "Travel Case with Cooling $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items",
+              "text": "Misc Items →"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "Labeled Vial Caps $2.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens",
+              "text": "Pens →"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "NovoPen 4 Spacers $10.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FTravel_Cases%2FTravel_Case_1%2Ftc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART Pep Things HOME / PEP THINGS Cases → 3 ITEMS Medium Case 3ml 10x2 $20.00 Modular Case $25.00 The Secure Crumpet Custom Trays $90.00 Labeling → 4 ITEMS Mini Label Helper $15.00 Label Helper Stand $15.00 Ten + One Case $25.00 Bulk 50 Case $60.00 Travel Cases → 2 ITEMS Travel Case 1 $35.00 Travel Case with Cooling $35.00 Misc Items → 1 ITEM Labeled Vial Caps $2.00 Pens → 2 ITEMS NovoPen 4 Spacers $10.00 9 Pen Silo $35.00",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1440x900": {
+          "pageId": "category-vial-1440x900",
+          "url": "https://clarky3d.com/#Vial_Storage",
+          "title": "Pep Things — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Pep Things"
+            },
+            {
+              "tag": "h3",
+              "text": "Cases → 3 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h3",
+              "text": "Labeling → 4 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h3",
+              "text": "Travel Cases → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case 1"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h3",
+              "text": "Misc Items → 1 ITEM"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h3",
+              "text": "Pens → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 20,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "Cases →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "Modular Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling",
+              "text": "Labeling →"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "Ten + One Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "Bulk 50 Case $60.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases",
+              "text": "Travel Cases →"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_1",
+              "text": "Travel Case 1 $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "Travel Case with Cooling $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items",
+              "text": "Misc Items →"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "Labeled Vial Caps $2.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens",
+              "text": "Pens →"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "NovoPen 4 Spacers $10.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FTravel_Cases%2FTravel_Case_1%2Ftc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART Pep Things HOME / PEP THINGS Cases → 3 ITEMS Medium Case 3ml 10x2 $20.00 Modular Case $25.00 The Secure Crumpet Custom Trays $90.00 Labeling → 4 ITEMS Mini Label Helper $15.00 Label Helper Stand $15.00 Ten + One Case $25.00 Bulk 50 Case $60.00 Travel Cases → 2 ITEMS Travel Case 1 $35.00 Travel Case with Cooling $35.00 Misc Items → 1 ITEM Labeled Vial Caps $2.00 Pens → 2 ITEMS NovoPen 4 Spacers $10.00 9 Pen Silo $35.00",
+          "overflowX": false,
+          "rootChildren": 1
+        },
+        "1920x1080": {
+          "pageId": "category-vial-1920x1080",
+          "url": "https://clarky3d.com/#Vial_Storage",
+          "title": "Pep Things — Clarky3D",
+          "lang": "en",
+          "description": "Clarky3D — made-to-order 3D prints. Browse the catalogue by category, see the filament colours in stock, and order straight through Telegram.",
+          "robots": null,
+          "canonical": "https://clarky3d.com/",
+          "ogTitle": "Clarky3D — made-to-order 3D prints",
+          "ogUrl": "https://print.clarkyau.com/",
+          "ogImage": "https://print.clarkyau.com/og-default.jpg",
+          "headings": [
+            {
+              "tag": "h2",
+              "text": "Pep Things"
+            },
+            {
+              "tag": "h3",
+              "text": "Cases → 3 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Medium Case 3ml 10x2"
+            },
+            {
+              "tag": "h4",
+              "text": "Modular Case"
+            },
+            {
+              "tag": "h4",
+              "text": "The Secure Crumpet Custom Trays"
+            },
+            {
+              "tag": "h3",
+              "text": "Labeling → 4 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Mini Label Helper"
+            },
+            {
+              "tag": "h4",
+              "text": "Label Helper Stand"
+            },
+            {
+              "tag": "h4",
+              "text": "Ten + One Case"
+            },
+            {
+              "tag": "h4",
+              "text": "Bulk 50 Case"
+            },
+            {
+              "tag": "h3",
+              "text": "Travel Cases → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case 1"
+            },
+            {
+              "tag": "h4",
+              "text": "Travel Case with Cooling"
+            },
+            {
+              "tag": "h3",
+              "text": "Misc Items → 1 ITEM"
+            },
+            {
+              "tag": "h4",
+              "text": "Labeled Vial Caps"
+            },
+            {
+              "tag": "h3",
+              "text": "Pens → 2 ITEMS"
+            },
+            {
+              "tag": "h4",
+              "text": "NovoPen 4 Spacers"
+            },
+            {
+              "tag": "h4",
+              "text": "9 Pen Silo"
+            }
+          ],
+          "landmarks": [
+            {
+              "tag": "header",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Main"
+            },
+            {
+              "tag": "main",
+              "role": null,
+              "name": null
+            },
+            {
+              "tag": "nav",
+              "role": null,
+              "name": "Breadcrumb"
+            }
+          ],
+          "linkCount": 20,
+          "links": [
+            {
+              "href": "#main",
+              "text": "SKIP TO CONTENT"
+            },
+            {
+              "href": "#",
+              "text": "CLARKY3D"
+            },
+            {
+              "href": "#",
+              "text": "HOME"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases",
+              "text": "Cases →"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2",
+              "text": "Medium Case 3ml 10x2 $20.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/Base_Case",
+              "text": "Modular Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/3ml_Cases/The_Secure_Crumpet",
+              "text": "The Secure Crumpet Custom Trays $90.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling",
+              "text": "Labeling →"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Mini_Labeler",
+              "text": "Mini Label Helper $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Label_Helper_Stand",
+              "text": "Label Helper Stand $15.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Ten_One_Case",
+              "text": "Ten + One Case $25.00"
+            },
+            {
+              "href": "#Vial_Storage/Labeling/Bulk_50_Case",
+              "text": "Bulk 50 Case $60.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases",
+              "text": "Travel Cases →"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_1",
+              "text": "Travel Case 1 $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Travel_Cases/Travel_Case_with_Cooling",
+              "text": "Travel Case with Cooling $35.00"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items",
+              "text": "Misc Items →"
+            },
+            {
+              "href": "#Vial_Storage/Misc_Items/Labeled_Vial_Caps",
+              "text": "Labeled Vial Caps $2.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens",
+              "text": "Pens →"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Novopen_4_Spacers",
+              "text": "NovoPen 4 Spacers $10.00"
+            },
+            {
+              "href": "#Vial_Storage/Pens/Pen_Storage_9",
+              "text": "9 Pen Silo $35.00"
+            }
+          ],
+          "buttons": [
+            {
+              "text": "FEATURED",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CATALOGUE ▾",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "COLOURS",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "CART",
+              "aria": "Open cart",
+              "disabled": false
+            }
+          ],
+          "forms": [],
+          "images": [
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2F3ml_Cases%2FMedium_Case_3ml_10x2%2Fmc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F19&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F24&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F8&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F10&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F20&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F21&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fproducts%2FVial_Storage%2FTravel_Cases%2FTravel_Case_1%2Ftc_printed_1.jpg&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F9&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F12&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F14&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            },
+            {
+              "src": "/.netlify/images?url=%2Fapi%2Fphotos%2F18&w=560&h=560&fit=cover",
+              "alt": "",
+              "w": 560,
+              "h": 560
+            }
+          ],
+          "bodyTextSample": "SKIP TO CONTENT CLARKY3D FEATURED CATALOGUE ▾ COLOURS CART Pep Things HOME / PEP THINGS Cases → 3 ITEMS Medium Case 3ml 10x2 $20.00 Modular Case $25.00 The Secure Crumpet Custom Trays $90.00 Labeling → 4 ITEMS Mini Label Helper $15.00 Label Helper Stand $15.00 Ten + One Case $25.00 Bulk 50 Case $60.00 Travel Cases → 2 ITEMS Travel Case 1 $35.00 Travel Case with Cooling $35.00 Misc Items → 1 ITEM Labeled Vial Caps $2.00 Pens → 2 ITEMS NovoPen 4 Spacers $10.00 9 Pen Silo $35.00",
+          "overflowX": false,
+          "rootChildren": 1
+        }
+      }
+    },
+    {
+      "id": "admin",
+      "url": "https://clarky3d.com/admin",
+      "screenshots": [
+        "admin--360x800.png",
+        "admin--768x1024.png",
+        "admin--1440x900.png",
+        "admin--1920x1080.png"
+      ],
+      "inventories": {
+        "360x800": {
+          "pageId": "admin-360x800",
+          "url": "https://clarky3d.com/admin",
+          "title": "Clarky3D Admin",
+          "lang": "en",
+          "description": null,
+          "robots": "noindex, nofollow",
+          "canonical": null,
+          "ogTitle": null,
+          "ogUrl": null,
+          "ogImage": null,
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "CLARKY3D_ADMIN"
+            }
+          ],
+          "landmarks": [],
+          "linkCount": 0,
+          "links": [],
+          "buttons": [
+            {
+              "text": "Sign in with Google",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "SIGN IN",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [
+            {
+              "action": null,
+              "method": null,
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "password",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "images": [],
+          "bodyTextSample": "CLARKY3D_ADMIN Restricted control panel Sign in with Google or SIGN IN",
+          "overflowX": true,
+          "rootChildren": null
+        },
+        "768x1024": {
+          "pageId": "admin-768x1024",
+          "url": "https://clarky3d.com/admin",
+          "title": "Clarky3D Admin",
+          "lang": "en",
+          "description": null,
+          "robots": "noindex, nofollow",
+          "canonical": null,
+          "ogTitle": null,
+          "ogUrl": null,
+          "ogImage": null,
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "CLARKY3D_ADMIN"
+            }
+          ],
+          "landmarks": [],
+          "linkCount": 0,
+          "links": [],
+          "buttons": [
+            {
+              "text": "Sign in with Google",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "SIGN IN",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [
+            {
+              "action": null,
+              "method": null,
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "password",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "images": [],
+          "bodyTextSample": "CLARKY3D_ADMIN Restricted control panel Sign in with Google or SIGN IN",
+          "overflowX": false,
+          "rootChildren": null
+        },
+        "1440x900": {
+          "pageId": "admin-1440x900",
+          "url": "https://clarky3d.com/admin",
+          "title": "Clarky3D Admin",
+          "lang": "en",
+          "description": null,
+          "robots": "noindex, nofollow",
+          "canonical": null,
+          "ogTitle": null,
+          "ogUrl": null,
+          "ogImage": null,
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "CLARKY3D_ADMIN"
+            }
+          ],
+          "landmarks": [],
+          "linkCount": 0,
+          "links": [],
+          "buttons": [
+            {
+              "text": "Sign in with Google",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "SIGN IN",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [
+            {
+              "action": null,
+              "method": null,
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "password",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "images": [],
+          "bodyTextSample": "CLARKY3D_ADMIN Restricted control panel Sign in with Google or SIGN IN",
+          "overflowX": false,
+          "rootChildren": null
+        },
+        "1920x1080": {
+          "pageId": "admin-1920x1080",
+          "url": "https://clarky3d.com/admin",
+          "title": "Clarky3D Admin",
+          "lang": "en",
+          "description": null,
+          "robots": "noindex, nofollow",
+          "canonical": null,
+          "ogTitle": null,
+          "ogUrl": null,
+          "ogImage": null,
+          "headings": [
+            {
+              "tag": "h1",
+              "text": "CLARKY3D_ADMIN"
+            }
+          ],
+          "landmarks": [],
+          "linkCount": 0,
+          "links": [],
+          "buttons": [
+            {
+              "text": "Sign in with Google",
+              "aria": null,
+              "disabled": false
+            },
+            {
+              "text": "SIGN IN",
+              "aria": null,
+              "disabled": false
+            }
+          ],
+          "forms": [
+            {
+              "action": null,
+              "method": null,
+              "fields": [
+                {
+                  "tag": "input",
+                  "type": "email",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                },
+                {
+                  "tag": "input",
+                  "type": "password",
+                  "name": null,
+                  "id": "",
+                  "label": null,
+                  "required": true
+                }
+              ]
+            }
+          ],
+          "images": [],
+          "bodyTextSample": "CLARKY3D_ADMIN Restricted control panel Sign in with Google or SIGN IN",
+          "overflowX": false,
+          "rootChildren": null
+        }
+      }
+    }
+  ],
+  "keyboard": {
+    "home": [
+      "first-tab",
+      "skip-link-present-on-first-tab",
+      "focus-order-sample",
+      "visible-focus-count-estimate"
+    ]
+  },
+  "axe": {
+    "home": {
+      "violationCount": 0,
+      "impacts": []
+    },
+    "colours": {
+      "violationCount": 1,
+      "impacts": [
+        "serious:color-contrast"
+      ]
+    },
+    "product-featured": {
+      "violationCount": 1,
+      "impacts": [
+        "serious:color-contrast"
+      ]
+    },
+    "product-popular": {
+      "violationCount": 1,
+      "impacts": [
+        "serious:color-contrast"
+      ]
+    },
+    "product-priced": {
+      "violationCount": 1,
+      "impacts": [
+        "serious:color-contrast"
+      ]
+    },
+    "category-vial": {
+      "violationCount": 1,
+      "impacts": [
+        "serious:color-contrast"
+      ]
+    },
+    "admin": {
+      "violationCount": 0,
+      "impacts": []
+    }
+  },
+  "responsive": {
+    "home-360x800": {
+      "overflowX": false,
+      "title": "Clarky3D"
+    },
+    "home-768x1024": {
+      "overflowX": false,
+      "title": "Clarky3D"
+    },
+    "home-1440x900": {
+      "overflowX": false,
+      "title": "Clarky3D"
+    },
+    "home-1920x1080": {
+      "overflowX": false,
+      "title": "Clarky3D"
+    },
+    "colours-360x800": {
+      "overflowX": false,
+      "title": "Colours — Clarky3D"
+    },
+    "colours-768x1024": {
+      "overflowX": false,
+      "title": "Colours — Clarky3D"
+    },
+    "colours-1440x900": {
+      "overflowX": false,
+      "title": "Colours — Clarky3D"
+    },
+    "colours-1920x1080": {
+      "overflowX": false,
+      "title": "Colours — Clarky3D"
+    },
+    "product-featured-360x800": {
+      "overflowX": false,
+      "title": "Stackable SNES Drawer (7-Cart) — Clarky3D"
+    },
+    "product-featured-768x1024": {
+      "overflowX": false,
+      "title": "Stackable SNES Drawer (7-Cart) — Clarky3D"
+    },
+    "product-featured-1440x900": {
+      "overflowX": false,
+      "title": "Stackable SNES Drawer (7-Cart) — Clarky3D"
+    },
+    "product-featured-1920x1080": {
+      "overflowX": false,
+      "title": "Stackable SNES Drawer (7-Cart) — Clarky3D"
+    },
+    "product-popular-360x800": {
+      "overflowX": false,
+      "title": "Modular Case — Clarky3D"
+    },
+    "product-popular-768x1024": {
+      "overflowX": false,
+      "title": "Modular Case — Clarky3D"
+    },
+    "product-popular-1440x900": {
+      "overflowX": false,
+      "title": "Modular Case — Clarky3D"
+    },
+    "product-popular-1920x1080": {
+      "overflowX": false,
+      "title": "Modular Case — Clarky3D"
+    },
+    "product-priced-360x800": {
+      "overflowX": false,
+      "title": "5x1 Rack — Clarky3D"
+    },
+    "product-priced-768x1024": {
+      "overflowX": false,
+      "title": "5x1 Rack — Clarky3D"
+    },
+    "product-priced-1440x900": {
+      "overflowX": false,
+      "title": "5x1 Rack — Clarky3D"
+    },
+    "product-priced-1920x1080": {
+      "overflowX": false,
+      "title": "5x1 Rack — Clarky3D"
+    },
+    "category-vial-360x800": {
+      "overflowX": false,
+      "title": "Pep Things — Clarky3D"
+    },
+    "category-vial-768x1024": {
+      "overflowX": false,
+      "title": "Pep Things — Clarky3D"
+    },
+    "category-vial-1440x900": {
+      "overflowX": false,
+      "title": "Pep Things — Clarky3D"
+    },
+    "category-vial-1920x1080": {
+      "overflowX": false,
+      "title": "Pep Things — Clarky3D"
+    },
+    "admin-360x800": {
+      "overflowX": true,
+      "title": "Clarky3D Admin"
+    },
+    "admin-768x1024": {
+      "overflowX": false,
+      "title": "Clarky3D Admin"
+    },
+    "admin-1440x900": {
+      "overflowX": false,
+      "title": "Clarky3D Admin"
+    },
+    "admin-1920x1080": {
+      "overflowX": false,
+      "title": "Clarky3D Admin"
+    }
+  }
+}

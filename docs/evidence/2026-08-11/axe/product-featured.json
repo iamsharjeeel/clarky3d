@@ -1,0 +1,33 @@
+{
+  "url": "https://clarky3d.com/#Retro_Gaming/Snes/Cart_Slide_Out_Drawer",
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "target": [
+            ".colour-parts-note"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 8.6pt (11.52px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<p class=\"colour-parts-note\">This one is printed in pieces, so each can be its own colour. Leave any of them on Lucky Dip and Clarky will pick.</p>"
+        }
+      ]
+    }
+  ],
+  "passes": 24,
+  "incomplete": [
+    {
+      "id": "aria-valid-attr-value",
+      "impact": "critical",
+      "nodes": 2
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 10
+    }
+  ]
+}

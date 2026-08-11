@@ -5,11 +5,11 @@ This repository is the delivery package for an evidence-led overhaul of
 implementation specification, and operating instructions that an implementation
 agent should follow when the existing source and brand assets are supplied.
 
-> **Current phase: audit and implementation planning.** No replacement site has
-> been built yet. The audit environment could not reach the live domain (the
-> outbound proxy returned HTTP 403), so this repository deliberately distinguishes
-> verified observations from hypotheses. Do not present hypotheses as live-site
-> defects. The first implementation phase includes a mandatory evidence capture.
+> **Current phase: M0 evidence complete; M1 foundation next.** No replacement site
+> has been built yet. Live `https://clarky3d.com/` was reachable on 2026-08-11 and
+> inventoried under `docs/evidence/2026-08-11/`. The site is a made-to-order 3D
+> print catalogue with Telegram checkout (not an agency portfolio). Do not invent
+> business facts; owner decisions in `docs/decisions/` gate M2 content.
 
 ## Documents
 
@@ -70,8 +70,18 @@ the exact commands and required environment variables here once the app exists.
 - [x] Repository operating guidance
 - [x] Provisional expert audit and evidence register
 - [x] Detailed overhaul implementation plan
-- [ ] Live-site/source evidence capture
-- [ ] Client-approved content and brand inventory
+- [x] Live-site evidence capture (2026-08-11)
+- [ ] Client-approved content and brand inventory (draft inventory exists; approval pending)
 - [ ] Application implementation
 - [ ] Preview QA and stakeholder approval
 - [ ] Production launch and post-launch monitoring
+
+## M0 artifacts
+
+| Path | Purpose |
+| --- | --- |
+| `docs/evidence/2026-08-11/` | Screenshots, Lighthouse, axe, headers, crawl, baseline summary |
+| `docs/content-inventory.csv` | Routes, products, filaments, migration notes |
+| `docs/redirect-map.csv` | Host and product URL map |
+| `docs/brand-inventory.md` | Retain / refine / retire / unknown |
+| `docs/decisions/` | Architecture, scope, brand ADRs |

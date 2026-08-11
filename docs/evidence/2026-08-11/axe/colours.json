@@ -1,0 +1,91 @@
+{
+  "url": "https://clarky3d.com/#colours",
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "target": [
+            "li:nth-child(1) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#ffffff</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(2) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#000000</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(3) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#ff0000</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(4) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#00629b</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(5) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#000000</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(6) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#ffffff</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(7) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#4b4f54</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(8) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#7e5475</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(9) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#ff8f1c</span>"
+        },
+        {
+          "target": [
+            "li:nth-child(10) > .filament-row-top > .filament-row-meta > .filament-hex"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.03 (foreground color: #666666, background color: #1a1a1a, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"filament-hex\">#4b9560</span>"
+        }
+      ]
+    }
+  ],
+  "passes": 20,
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 7
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "pageId": "admin-1920x1080",
+  "url": "https://clarky3d.com/admin",
+  "title": "Clarky3D Admin",
+  "lang": "en",
+  "description": null,
+  "robots": "noindex, nofollow",
+  "canonical": null,
+  "ogTitle": null,
+  "ogUrl": null,
+  "ogImage": null,
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "CLARKY3D_ADMIN"
+    }
+  ],
+  "landmarks": [],
+  "linkCount": 0,
+  "links": [],
+  "buttons": [
+    {
+      "text": "Sign in with Google",
+      "aria": null,
+      "disabled": false
+    },
+    {
+      "text": "SIGN IN",
+      "aria": null,
+      "disabled": false
+    }
+  ],
+  "forms": [
+    {
+      "action": null,
+      "method": null,
+      "fields": [
+        {
+          "tag": "input",
+          "type": "email",
+          "name": null,
+          "id": "",
+          "label": null,
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "password",
+          "name": null,
+          "id": "",
+          "label": null,
+          "required": true
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "bodyTextSample": "CLARKY3D_ADMIN Restricted control panel Sign in with Google or SIGN IN",
+  "overflowX": false,
+  "rootChildren": null
+}

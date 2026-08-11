@@ -1,0 +1,27 @@
+old_url,new_url,status,reason,owner,tested,action
+http://clarky3d.com/,https://clarky3d.com/,301,force-https,infra,2026-08-11 yes,keep
+https://www.clarky3d.com/,https://clarky3d.com/,301,apex-canonical,infra,2026-08-11 yes,keep
+https://print.clarkyau.com/,https://clarky3d.com/,DNS-fail,canonical/og host in SSR HTML; host does not resolve,owner-decision,2026-08-11 NXDOMAIN,decide-retire-or-restore
+https://print.clarkyau.com/sitemap.xml,https://clarky3d.com/sitemap.xml,DNS-fail,robots.txt Sitemap directive points here,owner-decision,2026-08-11 NXDOMAIN,fix-robots-to-clarky3d
+https://clarky3d.com/admin.html,https://clarky3d.com/admin,proposed-308,dedupe admin aliases,engineering,both-200,redirect-after-migration
+https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack,TBD-stable-slug-for-Hotwheels/Display_Racks/5x1_Rack,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Retro_Gaming/Snes/Cart_Slide_Out_Drawer,TBD-stable-slug-for-Retro_Gaming/Snes/Cart_Slide_Out_Drawer,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Misc_Items/Drinks/Can_Holder,TBD-stable-slug-for-Misc_Items/Drinks/Can_Holder,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Misc_Items/Key_Rings/Trolley_Key,TBD-stable-slug-for-Misc_Items/Key_Rings/Trolley_Key,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2,TBD-stable-slug-for-Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/3ml_Cases/Base_Case,TBD-stable-slug-for-Vial_Storage/3ml_Cases/Base_Case,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/3ml_Cases/The_Secure_Crumpet,TBD-stable-slug-for-Vial_Storage/3ml_Cases/The_Secure_Crumpet,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Labeling/Mini_Labeler,TBD-stable-slug-for-Vial_Storage/Labeling/Mini_Labeler,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Labeling/Label_Helper_Stand,TBD-stable-slug-for-Vial_Storage/Labeling/Label_Helper_Stand,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Labeling/Ten_One_Case,TBD-stable-slug-for-Vial_Storage/Labeling/Ten_One_Case,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Labeling/Bulk_50_Case,TBD-stable-slug-for-Vial_Storage/Labeling/Bulk_50_Case,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Travel_Cases/Travel_Case_1,TBD-stable-slug-for-Vial_Storage/Travel_Cases/Travel_Case_1,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Travel_Cases/Travel_Case_with_Cooling,TBD-stable-slug-for-Vial_Storage/Travel_Cases/Travel_Case_with_Cooling,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Misc_Items/Labeled_Vial_Caps,TBD-stable-slug-for-Vial_Storage/Misc_Items/Labeled_Vial_Caps,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Pens/Novopen_4_Spacers,TBD-stable-slug-for-Vial_Storage/Pens/Novopen_4_Spacers,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/?p=Vial_Storage/Pens/Pen_Storage_9,TBD-stable-slug-for-Vial_Storage/Pens/Pen_Storage_9,proposed,preserve product deep links / sitemap URLs,engineering,200-spa,map-to-new-product-route-without-losing-query-compat
+https://clarky3d.com/#colours,TBD,proposed,colours page,engineering,client-only,provide-server-route-equivalent
+https://clarky3d.com/#Hotwheels,TBD,proposed,category,engineering,client-only,provide-server-route-equivalent
+https://clarky3d.com/#Retro_Gaming,TBD,proposed,category,engineering,client-only,provide-server-route-equivalent
+https://clarky3d.com/#Misc_Items,TBD,proposed,category,engineering,client-only,provide-server-route-equivalent
+https://clarky3d.com/#Vial_Storage,TBD,proposed,category Pep Things,engineering,client-only,provide-server-route-equivalent

@@ -1,0 +1,91 @@
+{
+  "url": "https://clarky3d.com/#Vial_Storage",
+  "violations": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "target": [
+            ".active"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.99 (foreground color: #8000ff, background color: #121212, font size: 9.4pt (12.48px), font weight: normal). Expected contrast ratio of 4.5:1",
+          "html": "<button type=\"button\" class=\"nav-btn active\" aria-haspopup=\"true\" aria-expanded=\"false\">Catalogue <span aria-hidden=\"true\">▾</span></button>"
+        },
+        {
+          "target": [
+            ".cart-btn-label"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 9.4pt (12.48px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"cart-btn-label\">Cart</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(3) > .product-grid > .grid-card:nth-child(1) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$20.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(3) > .product-grid > .grid-card:nth-child(2) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$25.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(3) > .product-grid > .grid-card:nth-child(3) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$90.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(4) > .product-grid > .grid-card:nth-child(1) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$15.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(4) > .product-grid > .grid-card:nth-child(2) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$15.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(4) > .product-grid > .grid-card:nth-child(3) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$25.00</span>"
+        },
+        {
+          "target": [
+            ".grid-card:nth-child(4) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$60.00</span>"
+        },
+        {
+          "target": [
+            "section:nth-child(5) > .product-grid > .grid-card:nth-child(1) > .card-details > .card-meta > .card-price"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.78 (foreground color: #8000ff, background color: #1a1a1a, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1",
+          "html": "<span class=\"card-price\">$35.00</span>"
+        }
+      ]
+    }
+  ],
+  "passes": 19,
+  "incomplete": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "nodes": 21
+    }
+  ]
+}
