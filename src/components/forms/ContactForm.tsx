@@ -26,6 +26,8 @@ export function ContactForm() {
   return (
     <form
       className="panel stack contact-form"
+      action="/api/contact"
+      method="post"
       noValidate
       onSubmit={async (event) => {
         event.preventDefault();
@@ -43,16 +45,21 @@ export function ContactForm() {
           consent: form.get("consent") === "on",
         };
 
-        const response = await fetch("/api/contact", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(body),
-        });
-        const payload = (await response.json()) as {
-          ok?: boolean;
-          errorType?: string;
-          fieldErrors?: FieldErrors;
-        };
+        let response: Response;
+        let payload: { ok?: boolean; errorType?: string; fieldErrors?: FieldErrors };
+        try {
+          response = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(body),
+          });
+          payload = (await response.json()) as typeof payload;
+        } catch {
+          setPending(false);
+          setFormError("We could not send that just now. Check your connection and try again.");
+          trackBrowserEvent({ name: "contact_error", error_type: "network" });
+          return;
+        }
 
         setPending(false);
         if (!response.ok || !payload.ok) {
@@ -168,8 +175,17 @@ export function ContactForm() {
       </div>
 
       <label className="check-field" htmlFor="field-consent">
-        <input id="field-consent" name="consent" type="checkbox" required />
-        <span>I agree to be contacted about this enquiry. See the privacy notice.</span>
+        <input
+          id="field-consent"
+          name="consent"
+          type="checkbox"
+          required
+          aria-invalid={fieldErrors.consent ? true : undefined}
+          aria-describedby={fieldErrors.consent ? "error-consent" : undefined}
+        />
+        <span>
+          I agree to be contacted about this enquiry. See the <a href="/privacy">privacy notice</a>.
+        </span>
       </label>
       {fieldErrors.consent ? (
         <span className="field-error" id="error-consent">

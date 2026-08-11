@@ -31,3 +31,17 @@ test("product configurator adds an item to the cart drawer", async ({ page }) =>
   await expect(dialog).toBeVisible();
   await expect(dialog.getByText("Stackable SNES Drawer (7-Cart)")).toBeVisible();
 });
+
+test("cart drawer traps focus, closes with Escape, and restores focus", async ({ page }) => {
+  await page.goto("/work/cart-slide-out-drawer");
+  const addButton = page.getByRole("button", { name: /Add to cart/i });
+  await addButton.focus();
+  await addButton.click();
+  const dialog = page.getByRole("dialog", { name: /Your cart/i });
+  await expect(dialog.getByRole("button", { name: "Close" })).toBeFocused();
+  await page.keyboard.press("Shift+Tab");
+  await expect(dialog.getByRole("button", { name: "Clear cart" })).toBeFocused();
+  await page.keyboard.press("Escape");
+  await expect(dialog).toBeHidden();
+  await expect(addButton).toBeFocused();
+});

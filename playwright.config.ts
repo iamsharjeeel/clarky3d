@@ -18,6 +18,7 @@ export default defineConfig({
       ...process.env,
       NEXT_PUBLIC_SITE_URL: "http://127.0.0.1:3000",
       SITE_URL: "http://127.0.0.1:3000",
+      CONTACT_DELIVERY_MODE: "memory",
     },
   },
   projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],

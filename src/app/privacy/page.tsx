@@ -42,8 +42,9 @@ export default function PrivacyPage() {
             the Clarky3D inbox configured for this project.
           </li>
           <li>
-            If email delivery is not configured, submissions are accepted only into a temporary
-            in-memory test adapter (local/preview) and are not retained as a CRM.
+            Local and explicitly configured test environments may use a temporary in-memory adapter.
+            Production rejects submissions rather than claiming success when no delivery provider is
+            configured.
           </li>
           <li>
             Operational logs record delivery success/failure and provider IDs — not message bodies
