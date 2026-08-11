@@ -23,8 +23,7 @@ export default function PrivacyPage() {
       <p>
         By accessing or using our Service, you signify that you have read, understood, and agree to
         our collection, storage, use, and disclosure of your personal information as described in
-        this Privacy Policy and our{" "}
-        <Link href="/terms">Terms of Service</Link>.
+        this Privacy Policy and our <Link href="/terms">Terms of Service</Link>.
       </p>
 
       <h2>Definitions and key terms</h2>
@@ -370,8 +369,7 @@ export default function PrivacyPage() {
       <p>Don’t hesitate to contact us if you have any questions.</p>
       <ul>
         <li>
-          Via Email:{" "}
-          <a href="mailto:xpozandgro@gmail.com">xpozandgro@gmail.com</a>
+          Via Email: <a href="mailto:xpozandgro@gmail.com">xpozandgro@gmail.com</a>
         </li>
         <li>
           Via Phone Number: <a href="tel:+14802576030">+1 (480) 257-6030</a>

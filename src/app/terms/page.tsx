@@ -93,8 +93,7 @@ export default function TermsPage() {
       <p>Don’t hesitate to contact us if you have any questions.</p>
       <ul>
         <li>
-          Via Email:{" "}
-          <a href="mailto:xpozandgro@gmail.com">xpozandgro@gmail.com</a>
+          Via Email: <a href="mailto:xpozandgro@gmail.com">xpozandgro@gmail.com</a>
         </li>
         <li>
           Via Phone Number: <a href="tel:+14802576030">+1 (480) 257-6030</a>

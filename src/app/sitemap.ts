@@ -17,13 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/terms",
     "/sms-terms",
     "/accessibility",
-  ].map(
-    (path) => ({
-      url: `${siteUrl}${path || "/"}`,
-      changeFrequency: "weekly" as const,
-      priority: path === "" ? 1 : 0.7,
-    }),
-  );
+  ].map((path) => ({
+    url: `${siteUrl}${path || "/"}`,
+    changeFrequency: "weekly" as const,
+    priority: path === "" ? 1 : 0.7,
+  }));
   const productRoutes = getProducts().map((product) => ({
     url: `${siteUrl}/work/${product.slug}`,
     changeFrequency: "weekly" as const,
