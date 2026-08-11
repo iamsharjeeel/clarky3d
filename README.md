@@ -54,4 +54,4 @@ npm run test:e2e
 - [x] M2 high-fidelity catalogue templates + cart (media rights still unknown)
 - [x] M3 secure lead/order integration (Resend optional; memory adapter default)
 - [x] M4 migration, redirects, production launch prep
-- [ ] M5 monitoring / stabilization
+- [x] M5 monitoring / stabilization runbooks (production cutover still human-gated)
