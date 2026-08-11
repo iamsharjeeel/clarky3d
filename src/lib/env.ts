@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { siteSettings } from "../../content/site";
 
 const publicSchema = z.object({
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
@@ -20,6 +21,10 @@ export function getSiteUrl(): string {
     return serverUrl.replace(/\/$/, "");
   }
   return getPublicEnv().NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
+}
+
+export function getTelegramOrderHandle(): string {
+  return getPublicEnv().NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE || siteSettings.telegramHandleObserved;
 }
 
 export function isProductionDeployment(): boolean {

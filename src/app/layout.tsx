@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { getSiteSettings } from "@/lib/content/load";
-import { getPublicEnv } from "@/lib/env";
+import { getTelegramOrderHandle } from "@/lib/env";
 import { createMetadata } from "@/lib/metadata/create-metadata";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
 import "./globals.css";
@@ -39,16 +39,11 @@ export const metadata: Metadata = createMetadata({
 });
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const env = getPublicEnv();
-
   return (
     <html lang="en" className={`${exo.variable} ${pixel.variable} ${spaceMono.variable} h-full`}>
       <body className="min-h-full flex flex-col">
         <JsonLd data={[websiteJsonLd(), organizationJsonLd()]} />
-        <CartHost
-          currencyLabel={site.currencyLabel}
-          telegramHandle={env.NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE}
-        >
+        <CartHost currencyLabel={site.currencyLabel} telegramHandle={getTelegramOrderHandle()}>
           <SkipLink />
           <SiteHeader />
           <main id="main" className="page-shell" tabIndex={-1}>

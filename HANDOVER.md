@@ -1,18 +1,21 @@
 # Handover
 
-## Latest: M5 monitoring (2026-08-11)
+## Latest: Owner defaults applied (2026-08-11)
 
-### What changed
-- `GET /api/health` for uptime probes
-- `npm run synthetic:contact` / `scripts/synthetic-contact-check.mjs` (example.com only)
-- `docs/runbooks/monitoring.md` — 24h / 7d / 30d checklist
-- ADR: `docs/decisions/2026-08-11-monitoring.md`
+### Decisions locked as shipping defaults
+See `docs/decisions/2026-08-11-owner-defaults.md`:
 
-### Still requires humans before calling launch “done”
-- Production DNS cutover + env secrets
-- Privacy/legal approval, media rights, brand approvals
-- Named on-call owners for alerts
-- Search Console access (not supplied)
+- Catalogue (not agency portfolio)
+- Telegram `@Clarky_AU` + enquiry form
+- Retain “Pep Things”, all 16 products
+- Retire `print.clarkyau.com` for the new site
+- Provisional favicon; brand retained with contrast refinements
+- Interim privacy notice describing actual processors
+- No CRM / no third-party analytics
+
+### Deploy readiness
+- **Vercel preview:** ready
+- **Production DNS cutover:** not recommended until media rights are confirmed and privacy text is counsel-reviewed; email delivery needs Resend env vars
 
 ### Milestone PRs
 - M0 https://github.com/iamsharjeeel/clarky3d/pull/2
@@ -20,4 +23,4 @@
 - M2 https://github.com/iamsharjeeel/clarky3d/pull/4
 - M3 https://github.com/iamsharjeeel/clarky3d/pull/5
 - M4 https://github.com/iamsharjeeel/clarky3d/pull/6
-- M5 (this branch)
+- M5 https://github.com/iamsharjeeel/clarky3d/pull/7

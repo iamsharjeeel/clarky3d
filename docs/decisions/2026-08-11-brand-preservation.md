@@ -1,8 +1,9 @@
 # ADR: Brand preservation baseline
 
 **Date:** 2026-08-11  
-**Status:** provisional pending owner approval  
-**Inventory:** `docs/brand-inventory.md`
+**Status:** accepted as shipping default (owner may override)  
+**Inventory:** `docs/brand-inventory.md`  
+**Related:** `2026-08-11-owner-defaults.md`
 
 ## Decision
 

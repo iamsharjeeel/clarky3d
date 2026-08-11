@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-11
+- Defaults: catalogue scope, Telegram handle, interim privacy, retire print.clarkyau.com.
 - M5: health endpoint, synthetic contact check, monitoring runbook.
 - M4: legacy `?p=` redirects, JSON-LD, Vercel headers, launch runbook.
 - M3: secure `/api/contact` enquiry path with Resend/memory adapters and form UX.
