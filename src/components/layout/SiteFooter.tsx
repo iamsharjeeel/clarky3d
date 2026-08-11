@@ -29,6 +29,12 @@ export function SiteFooter() {
               <Link href="/privacy">Privacy</Link>
             </li>
             <li>
+              <Link href="/terms">Terms</Link>
+            </li>
+            <li>
+              <Link href="/sms-terms">SMS Terms</Link>
+            </li>
+            <li>
               <Link href="/accessibility">Accessibility</Link>
             </li>
           </ul>

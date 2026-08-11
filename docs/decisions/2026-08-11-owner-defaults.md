@@ -16,13 +16,13 @@ These choices follow live-site evidence. They do not invent new business facts.
 | Brand system | **Retain** dark/cyan retro-tech identity; **refine** muted/theme contrast | Evidence + axe findings |
 | Favicon | **Ship provisional Clarky “C” mark** | Live `/favicon.svg` was a Cursor logo — must not ship |
 | Product photos | **Ship with `rightsStatus: unknown` + on-page notice** | Needed for catalogue UX; production launch still carries rights risk until cleared |
-| Privacy copy | **Ship accurate interim notice of actual processors** | Describes Vercel host, optional Resend, optional Telegram exit, no invented legal basis |
+| Privacy copy | **Ship owner-supplied Privacy / Terms / SMS Terms** (branded) | From owner Google Doc; see `2026-08-11-legal-pages-from-owner-doc.md` |
 | CRM / GoHighLevel | **Do not integrate** | No mapping, consent, or credentials supplied |
 | Analytics | **No third-party tracker enabled** | Optional later after privacy review; CustomEvent bus only |
 
 ## Residual risks the owner still owns
 
 1. Confirming photography/model licenses for `public/images/products/`.
-2. Legal review of the interim privacy notice (lawful basis, retention, rights language).
+2. Legal review of Privacy / Terms / SMS Terms against actual processors and SMS program.
 3. Any product that must be removed for compliance/confidentiality.
 4. Production secrets (`RESEND_*`, domain DNS) and named on-call owner.

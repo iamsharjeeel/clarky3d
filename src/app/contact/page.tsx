@@ -22,7 +22,11 @@ export default function ContactPage() {
           here unless published separately.
         </p>
         <p className="meta">
-          <Link href="/privacy">Privacy notice</Link>
+          <Link href="/privacy">Privacy</Link>
+          {" · "}
+          <Link href="/terms">Terms</Link>
+          {" · "}
+          <Link href="/sms-terms">SMS Terms</Link>
         </p>
       </header>
 

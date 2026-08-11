@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-08-11
+- Legal: branded Privacy, Terms, and SMS Terms pages from owner Google Doc; footer/sitemap/consent links.
 - Defaults: catalogue scope, Telegram handle, interim privacy, retire print.clarkyau.com.
 - M5: health endpoint, synthetic contact check, monitoring runbook.
 - M4: legacy `?p=` redirects, JSON-LD, Vercel headers, launch runbook.

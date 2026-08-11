@@ -7,7 +7,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [];
   }
   const siteUrl = getSiteUrl();
-  const staticRoutes = ["", "/work", "/colours", "/about", "/contact", "/accessibility"].map(
+  const staticRoutes = [
+    "",
+    "/work",
+    "/colours",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/sms-terms",
+    "/accessibility",
+  ].map(
     (path) => ({
       url: `${siteUrl}${path || "/"}`,
       changeFrequency: "weekly" as const,
