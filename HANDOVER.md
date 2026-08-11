@@ -1,26 +1,21 @@
 # Handover
 
-## Latest: Owner defaults applied (2026-08-11)
+## Latest: Legal pages from owner doc (2026-08-11)
 
-### Decisions locked as shipping defaults
-See `docs/decisions/2026-08-11-owner-defaults.md`:
+### What changed
+- Branded `/privacy`, `/terms`, `/sms-terms` from owner Google Doc
+- Footer, contact page, and form consent link all three
+- Sitemap includes the new routes
+- ADR: `docs/decisions/2026-08-11-legal-pages-from-owner-doc.md`
 
-- Catalogue (not agency portfolio)
-- Telegram `@Clarky_AU` + enquiry form
-- Retain “Pep Things”, all 16 products
-- Retire `print.clarkyau.com` for the new site
-- Provisional favicon; brand retained with contrast refinements
-- Interim privacy notice describing actual processors
-- No CRM / no third-party analytics
+### Contact details used (from owner doc)
+- Email: `xpozandgro@gmail.com`
+- Phone: `+1 (480) 257-6030`
 
 ### Deploy readiness
 - **Vercel preview:** ready
-- **Production DNS cutover:** not recommended until media rights are confirmed and privacy text is counsel-reviewed; email delivery needs Resend env vars
+- **Production DNS cutover:** still gated on media rights, counsel review of legal
+  templates vs actual processors/SMS program, Resend/env, launch checklist
 
-### Milestone PRs
-- M0 https://github.com/iamsharjeeel/clarky3d/pull/2
-- M1 https://github.com/iamsharjeeel/clarky3d/pull/3
-- M2 https://github.com/iamsharjeeel/clarky3d/pull/4
-- M3 https://github.com/iamsharjeeel/clarky3d/pull/5
-- M4 https://github.com/iamsharjeeel/clarky3d/pull/6
-- M5 https://github.com/iamsharjeeel/clarky3d/pull/7
+### Prior defaults
+See `docs/decisions/2026-08-11-owner-defaults.md` (privacy row updated to owner-supplied policies).

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { trackBrowserEvent } from "@/lib/analytics/events";
 
@@ -169,7 +170,11 @@ export function ContactForm() {
 
       <label className="check-field" htmlFor="field-consent">
         <input id="field-consent" name="consent" type="checkbox" required />
-        <span>I agree to be contacted about this enquiry. See the privacy notice.</span>
+        <span>
+          I agree to be contacted about this enquiry. See the{" "}
+          <Link href="/privacy">Privacy Policy</Link>, <Link href="/terms">Terms</Link>, and{" "}
+          <Link href="/sms-terms">SMS Terms</Link>.
+        </span>
       </label>
       {fieldErrors.consent ? (
         <span className="field-error" id="error-consent">

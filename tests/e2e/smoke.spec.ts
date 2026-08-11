@@ -17,6 +17,18 @@ test("catalogue and product pages are reachable", async ({ page }) => {
   await expect(page.getByRole("button", { name: /Add to cart/i })).toBeVisible();
 });
 
+test("legal pages render branded policies", async ({ page }) => {
+  await page.goto("/privacy");
+  await expect(page.getByRole("heading", { level: 1, name: "Privacy Policy" })).toBeVisible();
+  await expect(page.getByText(/Clarky3D · Last updated/i)).toBeVisible();
+  await page.goto("/terms");
+  await expect(
+    page.getByRole("heading", { level: 1, name: "Terms and Conditions" }),
+  ).toBeVisible();
+  await page.goto("/sms-terms");
+  await expect(page.getByRole("heading", { level: 1, name: "SMS Terms" })).toBeVisible();
+});
+
 test("skip link is first focusable control", async ({ page }) => {
   await page.goto("/");
   await page.keyboard.press("Tab");

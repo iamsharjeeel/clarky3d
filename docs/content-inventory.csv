@@ -11,7 +11,9 @@ https://clarky3d.com/sitemap.xml,/sitemap.xml,sitemap,n/a,,,seo,,,,,,,,,,,,,n/a,
 https://clarky3d.com/api/bootstrap,/api/bootstrap,api,n/a,,,api-json,,,,,,,,,,,,,no,200,n/a,n/a,n/a,replace,,,Catalogue + settings JSON
 https://clarky3d.com/api/filaments,/api/filaments,api,n/a,,,api-json,,,,,,,,,,,,,no,200,n/a,n/a,n/a,replace,,,14 filament records
 https://clarky3d.com/api/photos/{id},/api/photos/:id,api-media,n/a,,,image,,,,,,,,,,,,,no,200,n/a,unknown,unknown,migrate-assets,,,Observed ids 8-25 with gaps
-https://clarky3d.com/privacy,/privacy,missing,n/a,,,policy,,,,,,,,,,,,,n/a,missing-as-spa-fallback,0,n/a,n/a,create,,,No dedicated privacy route observed in nav/sitemap
+https://clarky3d.com/privacy,/privacy,legal,Privacy Policy,,,policy,,,,,,,,,,,,,yes,new-route,owner-doc,n/a,n/a,create,,,Owner Google Doc branded for Clarky3D
+https://clarky3d.com/terms,/terms,legal,Terms and Conditions,,,policy,,,,,,,,,,,,,yes,new-route,owner-doc,n/a,n/a,create,,,Owner Google Doc branded for Clarky3D
+https://clarky3d.com/sms-terms,/sms-terms,legal,SMS Terms,,,policy,,,,,,,,,,,,,yes,new-route,owner-doc,n/a,n/a,create,,,SMS section split from owner Terms doc
 https://clarky3d.com/accessibility,/accessibility,missing,n/a,,,policy,,,,,,,,,,,,,n/a,missing,0,n/a,n/a,create,,,No accessibility statement observed
 https://clarky3d.com/contact,/contact,missing,n/a,,,form,,,,,,,,,,,,,n/a,missing,0,n/a,n/a,decide,,,No HTML form; ordering via Telegram deep link
 https://clarky3d.com/?p=Hotwheels/Display_Racks/5x1_Rack,/?p=,product-detail,5x1 Rack — Clarky3D,5x1 Rack,client-generated-from-product,product,Hotwheels,Display Racks,10.00,False,none,1,Uprights|Platforms,0,,,,,yes-via-sitemap,200,20,unknown,unknown,keep,A 5-tier industrial style display rack. Comes Flat Pack style for you to assemble.  Holds:  - 5x 1:64 model cars,,Observed live catalogue content; do not invent outcomes

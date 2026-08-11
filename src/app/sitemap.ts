@@ -7,13 +7,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [];
   }
   const siteUrl = getSiteUrl();
-  const staticRoutes = ["", "/work", "/colours", "/about", "/contact", "/accessibility"].map(
-    (path) => ({
-      url: `${siteUrl}${path || "/"}`,
-      changeFrequency: "weekly" as const,
-      priority: path === "" ? 1 : 0.7,
-    }),
-  );
+  const staticRoutes = [
+    "",
+    "/work",
+    "/colours",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/sms-terms",
+    "/accessibility",
+  ].map((path) => ({
+    url: `${siteUrl}${path || "/"}`,
+    changeFrequency: "weekly" as const,
+    priority: path === "" ? 1 : 0.7,
+  }));
   const productRoutes = getProducts().map((product) => ({
     url: `${siteUrl}/work/${product.slug}`,
     changeFrequency: "weekly" as const,
