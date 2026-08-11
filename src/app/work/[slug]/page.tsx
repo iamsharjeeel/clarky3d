@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { ProductConfigurator } from "@/components/work/ProductConfigurator";
 import {
   getCategoryById,
@@ -10,6 +11,7 @@ import {
   getSiteSettings,
 } from "@/lib/content/load";
 import { createMetadata } from "@/lib/metadata/create-metadata";
+import { productJsonLd } from "@/lib/seo/jsonld";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -48,6 +50,7 @@ export default async function ProductPage({ params }: Props) {
 
   return (
     <article className={`product-detail theme-${category?.themeToken ?? "misc"}`}>
+      <JsonLd data={productJsonLd(product)} />
       <p className="meta breadcrumb">
         <Link href="/work">Catalogue</Link> / {category?.title ?? product.categoryId} /{" "}
         {product.title}

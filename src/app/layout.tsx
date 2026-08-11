@@ -4,9 +4,11 @@ import { CartHost } from "@/components/cart/CartHost";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { getSiteSettings } from "@/lib/content/load";
 import { getPublicEnv } from "@/lib/env";
 import { createMetadata } from "@/lib/metadata/create-metadata";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/jsonld";
 import "./globals.css";
 
 const exo = Exo_2({
@@ -42,6 +44,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${exo.variable} ${pixel.variable} ${spaceMono.variable} h-full`}>
       <body className="min-h-full flex flex-col">
+        <JsonLd data={[websiteJsonLd(), organizationJsonLd()]} />
         <CartHost
           currencyLabel={site.currencyLabel}
           telegramHandle={env.NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE}
