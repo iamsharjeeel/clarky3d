@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { createMetadata } from "@/lib/metadata/create-metadata";
+import { ProductCard } from "@/components/work/ProductCard";
 import { getCategories, getProducts } from "@/lib/content/load";
+import { createMetadata } from "@/lib/metadata/create-metadata";
 
 export const metadata = createMetadata({
   title: "Catalogue",
@@ -17,8 +17,8 @@ export default function WorkPage() {
       <header className="stack">
         <h1 className="page-title">Catalogue</h1>
         <p className="lede">
-          Products and prices below are transcribed from the 2026-08-11 live catalogue capture.
-          Media rights remain unverified.
+          Products and prices transcribed from the 2026-08-11 live catalogue capture. Photography
+          rights remain unverified.
         </p>
       </header>
       {categories.map((category) => {
@@ -27,20 +27,16 @@ export default function WorkPage() {
           <section
             key={category.id}
             id={category.slug}
-            className="stack"
+            className={`stack theme-${category.themeToken}`}
             aria-labelledby={category.id}
           >
-            <h2 id={category.id}>{category.title}</h2>
+            <h2 id={category.id} className="strip-title">
+              {category.title}
+            </h2>
             <ul className="product-grid">
               {items.map((product) => (
                 <li key={product.slug}>
-                  <Link className="product-card" href={`/work/${product.slug}`}>
-                    <div className="product-card-body">
-                      <h3>{product.title}</h3>
-                      <p className="price">${product.priceAud} AUD</p>
-                      <p className="meta">{product.subcategoryId.replace(/_/g, " ")}</p>
-                    </div>
-                  </Link>
+                  <ProductCard product={product} />
                 </li>
               ))}
             </ul>

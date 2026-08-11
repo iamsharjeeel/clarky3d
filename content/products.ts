@@ -16,13 +16,13 @@ export const products = [
     colourParts: ["Uprights", "Platforms"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/products/Hotwheels/Display_Racks/5x1_Rack/hw5x1_printed_1.jpg",
+      src: "/images/products/Hotwheels/Display_Racks/5x1_Rack/hw5x1_printed_1.jpg",
       alt: "Photograph of 5x1 Rack (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/products/Hotwheels/Display_Racks/5x1_Rack/hw5x1_printed_1.jpg",
+        src: "/images/products/Hotwheels/Display_Racks/5x1_Rack/hw5x1_printed_1.jpg",
         alt: "Photograph of 5x1 Rack (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -46,13 +46,13 @@ export const products = [
     colourParts: ["Outer Shell", "Draw"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/22",
+      src: "/images/products/api-photos-22.jpg",
       alt: "Photograph of Stackable SNES Drawer (7-Cart) (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/22",
+        src: "/images/products/api-photos-22.jpg",
         alt: "Photograph of Stackable SNES Drawer (7-Cart) (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -136,13 +136,13 @@ export const products = [
     colourParts: ["Lid / Base", "Latches", "Inlay"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/products/Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2/mc_printed_1.jpg",
+      src: "/images/products/Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2/mc_printed_1.jpg",
       alt: "Photograph of Medium Case 3ml 10x2 (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/products/Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2/mc_printed_1.jpg",
+        src: "/images/products/Vial_Storage/3ml_Cases/Medium_Case_3ml_10x2/mc_printed_1.jpg",
         alt: "Photograph of Medium Case 3ml 10x2 (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -175,23 +175,23 @@ export const products = [
       },
     ],
     cover: {
-      src: "https://clarky3d.com/api/photos/19",
+      src: "/images/products/api-photos-19.jpg",
       alt: "Photograph of Modular Case (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/19",
+        src: "/images/products/api-photos-19.jpg",
         alt: "Photograph of Modular Case (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/products/Vial_Storage/Multi_Case/Base_Case/printed_1.jpg",
+        src: "/images/products/Vial_Storage/Multi_Case/Base_Case/printed_1.jpg",
         alt: "Photograph of Modular Case (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/products/Vial_Storage/Multi_Case/Base_Case/printed_3.jpg",
+        src: "/images/products/Vial_Storage/Multi_Case/Base_Case/printed_3.jpg",
         alt: "Photograph of Modular Case (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -216,23 +216,23 @@ export const products = [
     colourParts: ["Top Tray", "Bottom Tray"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/24",
+      src: "/images/products/api-photos-24.jpg",
       alt: "Photograph of The Secure Crumpet Custom Trays (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/24",
+        src: "/images/products/api-photos-24.jpg",
         alt: "Photograph of The Secure Crumpet Custom Trays (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/23",
+        src: "/images/products/api-photos-23.jpg",
         alt: "Photograph of The Secure Crumpet Custom Trays (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/25",
+        src: "/images/products/api-photos-25.jpg",
         alt: "Photograph of The Secure Crumpet Custom Trays (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -257,13 +257,13 @@ export const products = [
     colourParts: [],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/8",
+      src: "/images/products/api-photos-8.jpg",
       alt: "Photograph of Mini Label Helper (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/8",
+        src: "/images/products/api-photos-8.jpg",
         alt: "Photograph of Mini Label Helper (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -288,13 +288,13 @@ export const products = [
     colourParts: [],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/10",
+      src: "/images/products/api-photos-10.jpg",
       alt: "Photograph of Label Helper Stand (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/10",
+        src: "/images/products/api-photos-10.jpg",
         alt: "Photograph of Label Helper Stand (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -319,13 +319,13 @@ export const products = [
     colourParts: ["Lid / Base", "Latches", "Internal Insert"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/20",
+      src: "/images/products/api-photos-20.jpg",
       alt: "Photograph of Ten + One Case (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/20",
+        src: "/images/products/api-photos-20.jpg",
         alt: "Photograph of Ten + One Case (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -351,13 +351,13 @@ export const products = [
     colourParts: ["Lid /Base", "Latches", "Inlay"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/21",
+      src: "/images/products/api-photos-21.jpg",
       alt: "Photograph of Bulk 50 Case (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/21",
+        src: "/images/products/api-photos-21.jpg",
         alt: "Photograph of Bulk 50 Case (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -382,13 +382,13 @@ export const products = [
     colourParts: ["Lid / Base", "Latch"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/products/Vial_Storage/Travel_Cases/Travel_Case_1/tc_printed_1.jpg",
+      src: "/images/products/Vial_Storage/Travel_Cases/Travel_Case_1/tc_printed_1.jpg",
       alt: "Photograph of Travel Case 1 (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/products/Vial_Storage/Travel_Cases/Travel_Case_1/tc_printed_1.jpg",
+        src: "/images/products/Vial_Storage/Travel_Cases/Travel_Case_1/tc_printed_1.jpg",
         alt: "Photograph of Travel Case 1 (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -412,13 +412,13 @@ export const products = [
     colourParts: ["Lid / Base", "Latches", "Inlay"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/9",
+      src: "/images/products/api-photos-9.jpg",
       alt: "Photograph of Travel Case with Cooling (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/9",
+        src: "/images/products/api-photos-9.jpg",
         alt: "Photograph of Travel Case with Cooling (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -442,18 +442,18 @@ export const products = [
     colourParts: ["Cap", "Label"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/12",
+      src: "/images/products/api-photos-12.jpg",
       alt: "Photograph of Labeled Vial Caps (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/12",
+        src: "/images/products/api-photos-12.jpg",
         alt: "Photograph of Labeled Vial Caps (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/11",
+        src: "/images/products/api-photos-11.jpg",
         alt: "Photograph of Labeled Vial Caps (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -477,28 +477,28 @@ export const products = [
     colourParts: [],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/14",
+      src: "/images/products/api-photos-14.jpg",
       alt: "Photograph of NovoPen 4 Spacers (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/14",
+        src: "/images/products/api-photos-14.jpg",
         alt: "Photograph of NovoPen 4 Spacers (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/13",
+        src: "/images/products/api-photos-13.jpg",
         alt: "Photograph of NovoPen 4 Spacers (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/15",
+        src: "/images/products/api-photos-15.jpg",
         alt: "Photograph of NovoPen 4 Spacers (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
       {
-        src: "https://clarky3d.com/api/photos/16",
+        src: "/images/products/api-photos-16.jpg",
         alt: "Photograph of NovoPen 4 Spacers (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },
@@ -522,13 +522,13 @@ export const products = [
     colourParts: ["Base", "Lid"],
     options: [],
     cover: {
-      src: "https://clarky3d.com/api/photos/18",
+      src: "/images/products/api-photos-18.jpg",
       alt: "Photograph of 9 Pen Silo (rights status unknown \u2014 do not treat as approved)",
       rightsStatus: "unknown",
     },
     photos: [
       {
-        src: "https://clarky3d.com/api/photos/18",
+        src: "/images/products/api-photos-18.jpg",
         alt: "Photograph of 9 Pen Silo (rights status unknown \u2014 do not treat as approved)",
         rightsStatus: "unknown",
       },

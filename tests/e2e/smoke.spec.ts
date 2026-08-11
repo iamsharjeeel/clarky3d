@@ -14,7 +14,7 @@ test("catalogue and product pages are reachable", async ({ page }) => {
   await expect(firstProduct).toBeVisible();
   await firstProduct.click();
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-  await expect(page.getByRole("link", { name: /Start an order/i })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Add to cart/i })).toBeVisible();
 });
 
 test("skip link is first focusable control", async ({ page }) => {
@@ -22,4 +22,12 @@ test("skip link is first focusable control", async ({ page }) => {
   await page.keyboard.press("Tab");
   const focused = page.locator(":focus");
   await expect(focused).toHaveText(/Skip to content/i);
+});
+
+test("product configurator adds an item to the cart drawer", async ({ page }) => {
+  await page.goto("/work/cart-slide-out-drawer");
+  await page.getByRole("button", { name: /Add to cart/i }).click();
+  const dialog = page.getByRole("dialog", { name: /Your cart/i });
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByText("Stackable SNES Drawer (7-Cart)")).toBeVisible();
 });

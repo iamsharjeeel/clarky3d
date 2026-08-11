@@ -20,6 +20,9 @@ export function SiteFooter() {
               <Link href="/colours">Colours</Link>
             </li>
             <li>
+              <Link href="/about">About</Link>
+            </li>
+            <li>
               <Link href="/contact">Order</Link>
             </li>
             <li>

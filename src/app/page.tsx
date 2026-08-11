@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ProductCard } from "@/components/work/ProductCard";
 import {
   getCategories,
   getFeaturedProducts,
@@ -8,19 +9,19 @@ import {
 
 export default function HomePage() {
   const site = getSiteSettings();
-  const featured = getFeaturedProducts().slice(0, 8);
+  const featured = getFeaturedProducts().slice(0, 11);
   const categories = getCategories();
-  const inStock = getFilaments().filter((filament) => filament.status === "In Stock").length;
+  const filaments = getFilaments().filter((filament) => filament.status === "In Stock");
 
   return (
     <div className="stack">
-      <header className="stack">
-        <h1 className="page-title">Featured items</h1>
-        <div className="panel">
-          <p className="lede">{site.landingIntro}</p>
+      <header className="stack home-hero">
+        <h1 className="page-title motion-fade">Featured items</h1>
+        <div className="panel welcome-panel motion-fade">
+          <p className="lede welcome-lead">{site.landingIntro}</p>
           <p className="meta">{site.landingSubtext}</p>
         </div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
+        <div className="cta-row">
           <Link className="btn" href="/work">
             Browse catalogue
           </Link>
@@ -31,20 +32,21 @@ export default function HomePage() {
       </header>
 
       <section className="stack" aria-labelledby="categories-heading">
-        <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem" }}>
-          <h2 id="categories-heading" className="meta">
+        <div className="section-head">
+          <h2 id="categories-heading" className="strip-title">
             Browse the catalogue
           </h2>
           <p className="meta">{categories.length} categories</p>
         </div>
-        <ul className="product-grid">
+        <ul className="cat-row">
           {categories.map((category) => (
             <li key={category.id}>
-              <Link className="product-card" href={`/work#${category.slug}`}>
-                <div className="product-card-body">
-                  <h3>{category.title}</h3>
-                  <p className="meta">{category.subcategories.length} sections</p>
-                </div>
+              <Link
+                className={`cat-tile theme-${category.themeToken} motion-lift`}
+                href={`/work#${category.slug}`}
+              >
+                <span className="cat-tile-name">{category.title}</span>
+                <span className="cat-tile-count">{category.subcategories.length} sections</span>
               </Link>
             </li>
           ))}
@@ -52,32 +54,43 @@ export default function HomePage() {
       </section>
 
       <section className="stack" aria-labelledby="featured-heading">
-        <h2 id="featured-heading" className="meta">
-          Latest releases
-        </h2>
+        <div className="section-head">
+          <h2 id="featured-heading" className="strip-title">
+            Latest releases
+          </h2>
+          <p className="meta">{featured.length} items</p>
+        </div>
         <ul className="product-grid">
           {featured.map((product) => (
             <li key={product.slug}>
-              <Link className="product-card" href={`/work/${product.slug}`}>
-                <div className="product-card-body">
-                  <h3>{product.title}</h3>
-                  <p className="price">${product.priceAud}</p>
-                  <p className="meta">
-                    {product.badge === "none" ? "Made to order" : product.badge}
-                  </p>
-                </div>
-              </Link>
+              <ProductCard product={product} />
             </li>
           ))}
         </ul>
       </section>
 
       <section className="panel stack" aria-labelledby="colours-heading">
-        <h2 id="colours-heading">Colours on the shelf</h2>
-        <p className="meta">{inStock} in stock</p>
-        <p className="lede">
-          Every listed colour is sourced from the live filament inventory capture. Pick colours per
-          part when you order, or leave it to Lucky Dip.
+        <div className="section-head">
+          <h2 id="colours-heading" className="strip-title">
+            Colours on the shelf
+          </h2>
+          <p className="meta">{filaments.length} in stock</p>
+        </div>
+        <ul className="swatch-row" aria-label="In-stock filament colours">
+          {filaments.map((filament) => (
+            <li key={filament.id} className="swatch">
+              <span
+                className="swatch-dot"
+                style={{ background: filament.hex }}
+                aria-hidden="true"
+              />
+              <span>{filament.name}</span>
+            </li>
+          ))}
+        </ul>
+        <p className="meta">
+          Every colour above is from the captured in-stock inventory. Pick one per part when you
+          order, or leave it to Lucky Dip.
         </p>
         <Link className="btn btn-secondary" href="/colours">
           See the full library

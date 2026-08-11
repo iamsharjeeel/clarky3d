@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CartButton } from "@/components/cart/CartButton";
 import { getSiteSettings } from "@/lib/content/load";
 
 const nav = [
@@ -24,6 +25,7 @@ export function SiteHeader() {
               {item.label}
             </Link>
           ))}
+          <CartButton />
         </nav>
       </div>
     </header>
