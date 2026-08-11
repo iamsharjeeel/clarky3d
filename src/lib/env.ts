@@ -15,6 +15,10 @@ export function getPublicEnv(): PublicEnv {
 }
 
 export function getSiteUrl(): string {
+  const serverUrl = process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL;
+  if (serverUrl) {
+    return serverUrl.replace(/\/$/, "");
+  }
   return getPublicEnv().NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
 }
 

@@ -670,6 +670,65 @@ a {
   }
 }
 
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.8fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+.check-field {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.check-field input {
+  width: auto;
+  margin-top: 0.2rem;
+}
+
+.form-error,
+.field-error {
+  color: var(--color-error);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.form-error {
+  border: 2px solid var(--color-error);
+  padding: 0.75rem 1rem;
+}
+
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (width <= 900px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (width <= 480px) {
   .product-grid {
     grid-template-columns: 1fr;

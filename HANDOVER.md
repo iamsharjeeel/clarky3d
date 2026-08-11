@@ -1,33 +1,32 @@
 # Handover
 
-## Latest: M2 content experience (2026-08-11)
+## Latest: M3 contact integration (2026-08-11)
 
 ### What changed
-- High-fidelity catalogue UI: category tiles, product cards with images/badges, colour swatches, themed product detail.
-- Progressive cart + colour configurator; Telegram order message builder (handle via env).
-- Local product images under `public/images/products/` with provenance ADR (`rightsStatus: unknown`).
-- About page limited to verified facts only (no invented bio).
-- Motions: fade-up, lift hover, cart slide — reduced-motion safe.
+- `/api/contact` with Zod validation, honeypot, origin allowlist, rate limit.
+- Adapters: Resend (when env set) or in-memory (CI/local) — no PII in logs.
+- Accessible enquiry form on `/contact` beside optional Telegram CTA.
+- Analytics event helper (non-PII CustomEvent bus).
+- ADR: `docs/decisions/2026-08-11-contact-adapters.md`
 
 ### Commands / results
 ```bash
 npm run format:check  # pass
 npm run lint          # pass
 npm run typecheck     # pass
-npm run test          # 6 passed
+npm run test          # 10 passed
 npm run build         # pass
-CI=1 npm run test:e2e # 4 passed
+CI=1 npm run test:e2e # 6 passed
 ```
 
-### Screenshots
-`docs/evidence/2026-08-11/m2-screenshots/`
+### Manual env for production email
+- `RESEND_API_KEY`, `CONTACT_FROM_EMAIL`, `CONTACT_TO_EMAIL`, `SITE_URL` / `NEXT_PUBLIC_SITE_URL`
+- Optional: `NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE`
 
-### Pending human input
-- Media rights approval before production
-- Brand refinements / favicon
-- Telegram handle production env
-- Privacy/legal copy
-- Scope confirmation (catalogue vs portfolio)
+### Pending
+- Owner privacy copy approval before treating form as live legal notice
+- CRM/GoHighLevel mapping still blocked pending credentials/consent
+- Media rights / brand approvals from M0–M2
 
 ### Next
-M3: secure lead/contact path (server form + optional Telegram adapter), privacy/consent wiring.
+M4 redirects, SEO crawl hardening, Vercel launch prep.

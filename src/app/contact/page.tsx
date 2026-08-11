@@ -1,10 +1,12 @@
-import { createMetadata } from "@/lib/metadata/create-metadata";
+import { ContactForm } from "@/components/forms/ContactForm";
 import { getPublicEnv } from "@/lib/env";
 import { getSiteSettings } from "@/lib/content/load";
+import { createMetadata } from "@/lib/metadata/create-metadata";
+import Link from "next/link";
 
 export const metadata = createMetadata({
   title: "Order",
-  description: "How to order made-to-order Clarky3D prints.",
+  description: "Order or enquire about Clarky3D made-to-order prints.",
   path: "/contact",
 });
 
@@ -17,36 +19,44 @@ export default function ContactPage() {
   return (
     <div className="stack">
       <header className="stack">
-        <h1 className="page-title">Order</h1>
+        <h1 className="page-title">Order / enquire</h1>
         <p className="lede">
-          The live site takes orders through Telegram. A server-backed form ships in M3 after
-          privacy and delivery credentials are approved.
+          Send a short enquiry below, or use Telegram when configured. Response timing is not
+          guaranteed here unless the owner publishes one.
+        </p>
+        <p className="meta">
+          <Link href="/privacy">Privacy notice</Link>
         </p>
       </header>
-      <div className="panel stack">
-        {href ? (
-          <>
-            <p>
-              Message{" "}
-              <a href={href} rel="noopener noreferrer">
-                @{handle}
-              </a>{" "}
-              to order. Nothing is sent until you press send in Telegram.
-            </p>
-            <a className="btn" href={href} rel="noopener noreferrer">
-              Open Telegram
-            </a>
-          </>
-        ) : (
-          <>
+
+      <div className="contact-layout">
+        <ContactForm />
+        <aside className="panel stack">
+          <h2 className="meta">Telegram</h2>
+          {href ? (
+            <>
+              <p>
+                Prefer chat? Message{" "}
+                <a href={href} rel="noopener noreferrer">
+                  @{handle}
+                </a>
+                .
+              </p>
+              <a className="btn btn-secondary" href={href} rel="noopener noreferrer">
+                Open Telegram
+              </a>
+            </>
+          ) : (
             <p className="draft-note">
-              Telegram order CTA is disabled until `NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE` is set. The
-              observed live handle was `{site.telegramHandleObserved}`; it is not auto-enabled here
-              to avoid implying production approval.
+              Telegram CTA disabled until `NEXT_PUBLIC_TELEGRAM_ORDER_HANDLE` is set. Observed live
+              handle: `{site.telegramHandleObserved}`.
             </p>
-            <p className="meta">Set the env var in `.env.local` for local order-link testing.</p>
-          </>
-        )}
+          )}
+          <p className="meta">
+            Cart checkout still builds a Telegram draft order from selected prints when the handle
+            is enabled.
+          </p>
+        </aside>
       </div>
     </div>
   );

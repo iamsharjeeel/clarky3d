@@ -52,6 +52,6 @@ npm run test:e2e
 - [x] M0 live-site evidence + inventories
 - [x] M1 application foundation (this app scaffold)
 - [x] M2 high-fidelity catalogue templates + cart (media rights still unknown)
-- [ ] M3 secure lead/order integration
+- [x] M3 secure lead/order integration (Resend optional; memory adapter default)
 - [ ] M4 migration, redirects, production launch prep
 - [ ] M5 monitoring / stabilization

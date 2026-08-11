@@ -73,9 +73,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       const existing = current.find((entry) => entry.id === id);
       const next = existing
         ? current.map((entry) =>
-            entry.id === id
-              ? { ...entry, quantity: entry.quantity + (item.quantity ?? 1) }
-              : entry,
+            entry.id === id ? { ...entry, quantity: entry.quantity + (item.quantity ?? 1) } : entry,
           )
         : [...current, { ...item, id, quantity: item.quantity ?? 1 }];
       setClientItems(next);
