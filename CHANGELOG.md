@@ -1,4 +1,5 @@
-# Changelog
+## 2026-08-11
+- Visual: Editorial Gallery overhaul + dual design concepts; how-it-works route; evidence/design-delta/ADR.
 
 ## 2026-08-11
 - Defaults: catalogue scope, Telegram handle, interim privacy, retire print.clarkyau.com.

@@ -14,22 +14,25 @@ export default function ContactPage() {
   const href = `https://t.me/${handle}`;
 
   return (
-    <div className="stack">
-      <header className="stack">
-        <h1 className="page-title">Order / enquire</h1>
+    <div className="stack-editorial">
+      <header className="section-head-editorial">
+        <p className="eyebrow">Order</p>
+        <h1 className="page-title">Start an order</h1>
         <p className="lede">
-          Send a short enquiry below, or continue on Telegram. Response timing is not guaranteed
-          here unless published separately.
+          Tell Clarky what you want printed, or continue on Telegram. Response timing is not
+          guaranteed here unless published separately.
         </p>
         <p className="meta">
           <Link href="/privacy">Privacy notice</Link>
+          {" · "}
+          <Link href="/how-it-works">How it works</Link>
         </p>
       </header>
 
       <div className="contact-layout">
         <ContactForm />
-        <aside className="panel stack">
-          <h2 className="meta">Telegram</h2>
+        <aside className="story-block">
+          <h2>Telegram</h2>
           <p>
             Prefer chat? Message{" "}
             <a href={href} rel="noopener noreferrer">
