@@ -16,6 +16,9 @@ See `docs/decisions/2026-08-11-owner-defaults.md`:
 ### Deploy readiness
 - **Vercel preview:** ready
 - **Production DNS cutover:** not recommended until media rights are confirmed and privacy text is counsel-reviewed; email delivery needs Resend env vars
+- Production contact delivery now fails closed if Resend is absent. Preview/e2e
+  environments that intentionally exercise the non-persistent adapter must set
+  `CONTACT_DELIVERY_MODE=memory`.
 
 ### Milestone PRs
 - M0 https://github.com/iamsharjeeel/clarky3d/pull/2

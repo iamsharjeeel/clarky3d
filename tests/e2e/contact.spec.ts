@@ -15,3 +15,17 @@ test("contact form shows validation errors", async ({ page }) => {
   await page.getByRole("button", { name: /Send enquiry/i }).click();
   await expect(page.getByRole("alert")).toBeVisible();
 });
+
+test("contact endpoint rejects unsupported and oversized payloads", async ({ request }) => {
+  const unsupported = await request.post("/api/contact", {
+    headers: { "Content-Type": "text/plain" },
+    data: "not a supported form",
+  });
+  expect(unsupported.status()).toBe(415);
+
+  const oversized = await request.post("/api/contact", {
+    headers: { "Content-Type": "application/json" },
+    data: { message: "x".repeat(17_000) },
+  });
+  expect(oversized.status()).toBe(413);
+});

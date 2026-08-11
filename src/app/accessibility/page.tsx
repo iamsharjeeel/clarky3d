@@ -21,8 +21,10 @@ export default function AccessibilityPage() {
             Muted and some category-theme colours failed contrast on the live site; tokens here use
             refined muted/theme values pending brand approval.
           </li>
-          <li>Product photography rights are unverified; placeholders may appear.</li>
-          <li>Cart/configurator interactions are not fully rebuilt yet.</li>
+          <li>
+            Product photography rights remain unverified, so production launch is still gated on
+            owner approval.
+          </li>
         </ul>
         <p>
           Feedback: use the Order page once Telegram is configured, or open a repository issue

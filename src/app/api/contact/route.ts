@@ -5,6 +5,7 @@ import { contactInputSchema } from "@/lib/contact/schema";
 import { getSiteUrl } from "@/lib/env";
 
 export const runtime = "nodejs";
+const MAX_REQUEST_BYTES = 16_384;
 
 function clientKey(request: Request): string {
   const forwarded = request.headers.get("x-forwarded-for");
@@ -47,8 +48,15 @@ export async function POST(request: Request) {
   }
 
   const contentType = request.headers.get("content-type") || "";
-  if (!contentType.includes("application/json") && !contentType.includes("form")) {
+  const isJson = contentType.includes("application/json");
+  const isForm = contentType.includes("application/x-www-form-urlencoded");
+  if (!isJson && !isForm) {
     return NextResponse.json({ ok: false, errorType: "content_type" }, { status: 415 });
+  }
+
+  const declaredLength = Number(request.headers.get("content-length") ?? "0");
+  if (Number.isFinite(declaredLength) && declaredLength > MAX_REQUEST_BYTES) {
+    return NextResponse.json({ ok: false, errorType: "payload_too_large" }, { status: 413 });
   }
 
   const rate = checkRateLimit(`contact:${clientKey(request)}`);
@@ -61,20 +69,22 @@ export async function POST(request: Request) {
 
   let payload: unknown;
   try {
-    if (contentType.includes("application/json")) {
-      payload = await request.json();
+    const body = await request.text();
+    if (new TextEncoder().encode(body).byteLength > MAX_REQUEST_BYTES) {
+      return NextResponse.json({ ok: false, errorType: "payload_too_large" }, { status: 413 });
+    }
+    if (isJson) {
+      payload = JSON.parse(body) as unknown;
     } else {
-      const form = await request.formData();
-      payload = Object.fromEntries(form.entries());
+      payload = Object.fromEntries(new URLSearchParams(body));
       if (payload && typeof payload === "object" && "consent" in payload) {
         (payload as Record<string, unknown>).consent =
           (payload as Record<string, unknown>).consent === "on" ||
-          (payload as Record<string, unknown>).consent === "true" ||
-          (payload as Record<string, unknown>).consent === true;
+          (payload as Record<string, unknown>).consent === "true";
       }
     }
   } catch {
-    return NextResponse.json({ ok: false, errorType: "invalid_json" }, { status: 400 });
+    return NextResponse.json({ ok: false, errorType: "invalid_payload" }, { status: 400 });
   }
 
   const parsed = contactInputSchema.safeParse(payload);

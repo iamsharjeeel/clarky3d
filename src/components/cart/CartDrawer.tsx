@@ -13,12 +13,32 @@ export function CartDrawer({ currencyLabel, telegramHandle }: Props) {
   const { items, isOpen, closeCart, setQuantity, removeItem, clear, count } = useCart();
   const titleId = useId();
   const closeRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLElement>(null);
+  const returnFocusRef = useRef<HTMLElement | null>(null);
+  const closeCartRef = useRef(closeCart);
+  closeCartRef.current = closeCart;
 
   useEffect(() => {
     if (!isOpen) return;
+    returnFocusRef.current =
+      document.activeElement instanceof HTMLElement ? document.activeElement : null;
     closeRef.current?.focus();
     const onKey = (event: KeyboardEvent) => {
-      if (event.key === "Escape") closeCart();
+      if (event.key === "Escape") closeCartRef.current();
+      if (event.key !== "Tab") return;
+      const focusable = panelRef.current?.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
     };
     document.addEventListener("keydown", onKey);
     const previous = document.body.style.overflow;
@@ -26,8 +46,9 @@ export function CartDrawer({ currencyLabel, telegramHandle }: Props) {
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = previous;
+      returnFocusRef.current?.focus();
     };
-  }, [isOpen, closeCart]);
+  }, [isOpen]);
 
   if (!isOpen) return null;
 
@@ -40,6 +61,7 @@ export function CartDrawer({ currencyLabel, telegramHandle }: Props) {
   return (
     <div className="cart-overlay" role="presentation" onClick={closeCart}>
       <aside
+        ref={panelRef}
         className="cart-panel"
         role="dialog"
         aria-modal="true"
